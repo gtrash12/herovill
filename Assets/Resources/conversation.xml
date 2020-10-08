@@ -1,0 +1,5445 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<DialogueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <day1>
+    <tutorial>
+      <say name="갈트래">
+        <text>당신은 하루가 지나기 전에 마왕의 탑으로 가서 마물을 처치해야 합니다.</text>
+      </say>
+      <say name="갈트래">
+        <text>하지만 아무런 준비도 하지 않고 무턱대고 마왕의 탑에 도전하면 죽음을 면치 못하고 세상은 멸망할 것입니다.</text>
+      </say>
+      <say name="갈트래">
+        <text>마왕의 탑에 도전하기 전에 당신은 충분히 강해져야 할 필요가 있습니다.
+    이는 강한 장비를 얻기, 믿음직한 동료를 구하기, 레벨업하기 등이 포함됩니다.</text>
+      </say>
+      <say name="갈트래">
+        <text>각 마물은 저마다의 클리어 조건이 있습니다. 그 조건은 마을 곳곳의 장소나 마물에게 직접 부딫혀 봄으로써 힌트를 얻을 수 있습니다. </text>
+      </say>
+      <say name="갈트래">
+        <text>조건은 위해선 마을 곳곳의 장소를 통해 충족가능합니다. 이를 위해서도 보통 특정 조건을 충족시켜야 합니다.</text>
+      </say>
+      <say name="갈트래">
+        <text>이는 말로 해보기 보단 직접 부딫혀보는 것이 더욱 알기 쉽겠군요.</text>
+      </say>
+      <say name="갈트래">
+        <text>첫 번 째 날의 마물은 날카로운 발톱으로 공격하는 것이 특징인 &lt;color=#FF0000&gt;웨어울프&lt;/color&gt;입니다.</text>
+      </say>
+      <say name="갈트래">
+        <text>현재 아무런 무기도 없으니 우선 뒷 쪽에 보이는 무구점에서 장비를 구해봅시다.</text>
+      </say>
+      <say name="갈트래">
+        <text>그 이후의 일은 스스로 해보세요.</text>
+      </say>
+    </tutorial>
+    <library>
+      <say name="현자">
+        <text>이 마을의 도서관엔 흥미로운 책이 많아 나의 발을 오래 잡고있구먼.</text>
+      </say>
+      <say name="현자" type="sellect">
+        <text>자네 궁금한 것이 있다면 뭐든지 물어보게.
+이 몸이 대답할 수 있는 것이라면 얼마든지 가르쳐 주겠네.</text>
+        <sellect go="1">웨어울프에 대해서.</sellect>
+        <sellect go="2">강해지는 법에 대해서.</sellect>
+        <sellect go="3">할아버지는 몇 살이세요?</sellect>
+        <sellect>전 유식해서 됐습니다.</sellect>
+      </say>
+    </library>
+    <library1>
+      <say name="현자">
+        <text>웨어울프는 본래는 인간인데 늑대로 변해버린 마물이라네.
+이족보행이 가능하며 팔 다리가 길며 길고 단단한 손톱이 특징이지.</text>
+      </say>
+      <say name="현자">
+        <text>그 강철같은 손톱으론 바위마저 두동강 내버린다고 전해진다네.</text>
+      </say>
+      <say name="현자">
+        <text>또 늑대 특유의 날렵함과 신중함 까지 겸비하고 있네.
+그 것과 대면하게 된다면 맞서는 것도 도망치는 것도 할 수 없지.
+죽음만을 기다릴 뿐이라네.</text>
+      </say>
+      <say name="현자">
+        <text>그런 늑대인간이라도 한가지 약점이 있지.</text>
+      </say>
+      <say name="현자">
+        <text>그 약점은 바로 &lt;color=#FF0000&gt;태양빛&lt;/color&gt;이네.
+달빛을 받아 탄생한 마물인 늑대인간에겐 정반대의 힘인 태양빛이 제대로 먹힐 걸세.</text>
+        <go>back</go>
+      </say>
+    </library1>
+    <library2>
+      <say name="현자">
+        <text>강함에는 육체적인 강함과 정신적인 강함이 있지.
+나는 육체 쪽은 영 꽝이지만 정신적인 부분에선 경지에 도달한 사람이라 할 수 있네.</text>
+      </say>
+      <say name="현자">
+        <text>지식은 또 하나의 강함이지.
+자네가 나로부터 알아 가는 것이 많을 수록 자네는 강해진다고 할 수 있네.</text>
+        <go>back</go>
+      </say>
+    </library2>
+    <library3>
+      <say name="현자">
+        <text>흠 내 나이라...
+100세가 넘은 이후론 세아리지 않아서 잘 모르겠네만...</text>
+      </say>
+      <say name="현자">
+        <text>이 몸이 늙었다는 것은 자각하고 있으니 너무 그러지 말게나...
+엣헴!</text>
+        <go>back</go>
+      </say>
+    </library3>
+    <weapon>
+      <say name="대장장이">
+        <text>우-하! 꼬맹이 그런 장비로는 마물을 쓰러트릴 수 없다!</text>
+      </say>
+      <say name="대장장이" type="sellect">
+        <text>내가 만든 최고급 장비를 구경하라고!
+아 물론 공짜는 아니니까!
+껄껄껄!!!</text>
+        <sellect go="buy">구매</sellect>
+        <sellect go="make">제작</sellect>
+        <sellect go="1">장비는 어떻게 사는 거죠?</sellect>
+        <sellect go="2">돈이 없는데 어떻게 하죠?</sellect>
+        <sellect go="3">제작은 어떻게 하는 거죠?</sellect>
+        <sellect>안 사요.</sellect>
+      </say>
+    </weapon>
+    <weapon1>
+      <say name="대장장이">
+        <text>무기를 어떻게 사냐니.
+하하! 완전 초심자구나 꼬마야!</text>
+      </say>
+      <say name="대장장이">
+        <text>무기는 선택지들 중에 구매하기를 누르면 내가 파는 멋진 장비들이 보일 거야!
+장비에 대한 상세한 설명은 그 장비를 누르고 있는 동안에 볼 수 있지!</text>
+      </say>
+      <say name="대장장이">
+        <text>원하는 장비가 있다면 그 상태에서 손가락을 떼라구!
+간편하게 클릭하면 되지!
+자 그럼 한 번 구경해 봐!</text>
+        <go>buy</go>
+      </say>
+    </weapon1>
+    <weapon2>
+      <say name="대장장이">
+        <text>어떡하냐니! 당연히 돈을 벌어 와야지!
+미리말해두지만 우리는 외상같은 거 없다고!</text>
+      </say>
+      <say name="대장장이">
+        <text>돈을 버는 방법은... 글쎄 나도 잘 모르겠는걸?</text>
+      </say>
+      <say name="대장장이">
+        <text>저 쪽에 있는 주점으로 가 보는게 어때 제법 큰 주점에다 주인이 미녀라 정신나간 모험가들이 많이 모이니까 말이야.
+잔심부름 같은 걸 해주면 보수로 뭔가 줄 수도 있지 않겠어?</text>
+        <go>back</go>
+      </say>
+    </weapon2>
+    <weaponbuy>
+      <say name="대장장이" type="sell">
+        <text>골라봐! 돈은 가져 왔지?
+살 것이 없다면 이 곳을 눌러.</text>
+        <sell cost="100">기사검</sell>
+        <sell cost="50">나무스태프</sell>
+      </say>
+    </weaponbuy>
+    <weapon3>
+      <say name="대장장이">
+        <text>제작은 네가 필요한 장비를 내가 팔고있지 않으면 네가 재료를 가져오면 내가 만들어 주는 거지!</text>
+      </say>
+      <say name="대장장이">
+        <text>제작에는 재료와 약간의 골드만 주면 내가 뚝딱만들어 준다구! 하하핳!</text>
+      </say>
+      <say name="대장장이">
+        <text>뭐 이참에 내가 제작할 수 있는 물건이나 보고가!</text>
+        <go>make</go>
+      </say>
+    </weapon3>
+    <weaponmake>
+      <say name="대장장이" type="make">
+        <text>뭘 만들어 줄까?! 말만 하라구!</text>
+        <make cost="100" name="태양검">
+          <con>기사검</con>
+          <con>태양석</con>
+        </make>
+      </say>
+    </weaponmake>
+    <weaponbuyChk>
+      <say name="대장장이" type="sellect">
+        <text>오옷! /name! 그거 나의 걸작이라구?
+/gold 골드야 살 거야?</text>
+        <sellect go="yes">네</sellect>
+        <sellect go="no">아니오</sellect>
+      </say>
+    </weaponbuyChk>
+    <weaponbuyChkyes>
+      <say name="대장장이" type="buy" con="item">
+        <text>/gold 골드 확실히 받았어!
+잘 쓰라고 꼬마야!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+        <go>buy</go>
+      </say>
+    </weaponbuyChkyes>
+    <weaponbuyChkno>
+      <say name="대장장이">
+        <text>뭐야 내 작품이 마음에 안드는 거야?
+뭐 다른 것도 많으니 천천히 다시 골라봐!</text>
+        <go>buy</go>
+      </say>
+    </weaponbuyChkno>
+    <weaponbuyChkyesfail>
+      <say name="대장장이">
+        <text>어이! 돈이 부족하잖아!
+장난하자는 거야?</text>
+        <go>buy</go>
+      </say>
+    </weaponbuyChkyesfail>
+    <weaponmakeChk>
+      <say name="대장장이" type="buy" con="item">
+        <text>자! /name이 완성됐다구!
+가져가!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <go>make</go>
+    </weaponmakeChk>
+    <weaponmakeChkfail>
+      <say name="대장장이">
+        <text>어이! 재료가 부족하잖아!
+장난하자는 거야?</text>
+        <go>make</go>
+      </say>
+    </weaponmakeChkfail>
+    <pub>
+      <say name="마담">
+        <text>어서와.
+맛있는 음식과 술, 떠들썩한 분위기, 그리고 미녀를 좋아하는 모험가라면 자연히 이 곳에서 발걸음이 멈추게 되지.
+너 또한 그런 부류?</text>
+      </say>
+      <say name="마담" type="sellect">
+        <text>그래서 용건이 뭐니?
+설마 술?</text>
+        <sellect go="1">곧 세상이 멸망하는데 술이라도 마셔야 겠습니다.</sellect>
+        <sellect go="2">도움이 필요하지 않나요?</sellect>
+        <sellect>없어요</sellect>
+      </say>
+    </pub>
+    <pub1>
+      <say name="마담">
+        <text>어린게 그럼 못 쓴단다.
+대신 여기 우유나 마시렴 후훗.</text>
+        <go>back</go>
+      </say>
+    </pub1>
+    <pub2>
+      <say name="마담">
+        <text>흠 그러고 보니 조금 곤란한 손님이 있지.</text>
+      </say>
+      <say name="마담">
+        <text>술을 얼마나 퍼 마셨는지 곯아떨어져서는 일어날 생각을 하지 않네.
+얼른 보내고 싶으니 네가 숙취해소용 나물을 구해와주지 않을래?</text>
+      </say>
+      <say name="마담" type="sellect">
+        <text>물론 사례는 할게.</text>
+        <sellect go="1">가져왔어요.</sellect>
+        <sellect go="2">그 나물은 어디에서 얻을 수 있죠?</sellect>
+        <sellect>거절할게요.</sellect>
+      </say>
+    </pub2>
+    <pub21>
+      <say name="마담" con="item">
+        <text>앗! 가져왔구나!
+장한걸?</text>
+        <con>
+          <ele>숙해나물</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <say name="마담" type="give" phase="a1">
+        <text>여기 보수야!
+/ggold면 불만 없겠지?</text>
+        <give gold="">200</give>
+      </say>
+    </pub21>
+    <pub21fail>
+      <say name="마담">
+        <text>뭐야 장난하지 말고 어서 가져와.</text>
+      </say>
+    </pub21fail>
+    <pub22>
+      <say name="마담">
+        <text>나물은 저 - 뒤에 있는 숲에서 얻을 수 있을 거야.</text>
+      </say>
+    </pub22>
+    <forest>
+      <say name="표지판">
+        <text>이 앞은 울창한 숲입니다.
+입장하는 것 만으로도 행동력이 닳습니다.
+행동력이 0이되면 행동력이 필요한 행동을 할 수 없습니다.</text>
+      </say>
+      <say name="표지판" type="sellect">
+        <text>정말 입장하겠습니까?</text>
+        <sellect go="1" hp="1">입장한다.</sellect>
+        <sellect go="2">행동력이란?</sellect>
+        <sellect>돌아간다.</sellect>
+      </say>
+    </forest>
+    <forest2>
+      <say name="표지판">
+        <text>행동력은 특정 행위를 하기위해 필요한 수치입니다.
+화면의 왼쪽 위의 하얀색 숫자가 잔여 행동력입니다.</text>
+      </say>
+      <say name="표지판">
+        <text>행동력을 소모하는 행동을 하는 행위는 할지 안 할지 선택할 수 있으며, 그러한 선택지 옆에는 행동력을 의미하는 표시가 있으니 주의해서 선택해주시길 바랍니다.</text>
+      </say>
+      <say name="표지판">
+        <text>행동력을 적재적소에 활용해야만 마물을 퇴치할 수 있습니다.</text>
+        <go>back</go>
+      </say>
+    </forest2>
+    <forest1>
+      <say>
+        <text>당신은 울창한 숲 안으로 발을 들였다.</text>
+      </say>
+      <say type="sellect">
+        <text>양갈래 길이 나왔다.
+오른쪽에는 폐허가 된 탄광이 있고 왼쪽에는 더욱 깊은 숲이 있다.
+어디로 갈까?</text>
+        <sellect go="1" hp="1">왼쪽</sellect>
+        <sellect go="2" hp="1">오른쪽</sellect>
+        <sellect>무섭다. 돌아가자.</sellect>
+      </say>
+    </forest1>
+    <forest11>
+      <say>
+        <text>빛 조차 새어들어오지 못하지만 주변이 빛으로 가득 찬 신비한 숲에 도달했다.</text>
+      </say>
+      <say>
+        <text>뭘까 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!
+어딘가 쓸모가 있을 지도?</text>
+        <give>숙해나물</give>
+      </say>
+    </forest11>
+    <forest12>
+      <say>
+        <text>모든 것을 내어준 채 싸늘하게 버려진 탄광에 도달했다.</text>
+      </say>
+      <say>
+        <text>뭘까 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!
+어딘가 쓸모가 있을 지도?</text>
+        <give>태양석</give>
+      </say>
+    </forest12>
+    <training>
+      <say name="헬스트레이너">
+        <text>헥헥-!
+너도 운동하러 왔니?
+후욱-! 후욱-!</text>
+      </say>
+      <say name="헬스트레이너" type="sellect">
+        <text>그래... 헥!헥!
+운동 좋지... 콜록! 콜록!</text>
+        <sellect go="yes" hp="1">운동을 한다</sellect>
+        <sellect go="1">운동을 하면 좋은 점</sellect>
+        <sellect>그냥 간다</sellect>
+      </say>
+    </training>
+    <training1>
+      <say name="헬스트레이너">
+        <text>헉!헉! 운동을 하면 힘이 강해진단다.
+파오후 헉!헉!</text>
+      </say>
+      <say name="헬스트레이너">
+        <text>휴우...
+그 강해진 힘은 마물을 공격할 때 공격력에 더해진단다.</text>
+      </say>
+      <say name="헬스트레이너">
+        <text>예를 들면 공격력이 8인 기사검으로 마물을 공격할 때
+너의 공격력이 3이면 총 10의 데미지를 마물에게 줄 수 있는 거지.</text>
+      </say>
+      <say name="헬스트레이너">
+        <text>무기는 많은데 강한 무기가 없을때.
+공격력이 높다면 그 무기가 강하지 않아도 큰 데미지를 마물에게 줄 수 있는 거지.
+하지만 공격력이 아무리 높아도 공격할 수 있는 아이템이 하나도 없다면 마물에게 데미지를 주지 못한다는 점 기억해 둬</text>
+      </say>
+      <say name="헬스트레이너">
+        <text>그리고 운동은 행동력을 소비하니 조심해.</text>
+        <go>back</go>
+      </say>
+    </training1>
+    <trainingyes>
+      <say name="헬스트레이너">
+        <text>그래! 헉헉! 너도 이리로 와!
+함께 운동하자구!</text>
+      </say>
+      <say type="give">
+        <text>공격력이 /gpow 상승했다.</text>
+        <give pow="">2</give>
+      </say>
+      <say name="헬스트레이너">
+        <text>후욱후욱! 어때?
+강해진 듯한 느낌이 드니?</text>
+        <go>back</go>
+      </say>
+    </trainingyes>
+    <a1pub>
+      <say name="마담">
+        <text>아까는 고마웠어 후훗.
+덕분에 진상이 가버렸으니까.</text>
+      </say>
+    </a1pub>
+    <tower>
+      <say>
+        <text>음산한 기운이 흐르는 거대한 탑이 우뚝 솟아있다.</text>
+      </say>
+      <say type="sellect">
+        <text>마왕의 탑에 도전할까?
+실패시 처음부터 다시 해야한다.</text>
+        <sellect go="yes">도전한다.</sellect>
+        <sellect>좀 더 준비를 하고 도전하자!</sellect>
+      </say>
+    </tower>
+    <toweryes>
+      <say ad="">
+        <text>타워에 입장하니 멀리서 거대한 형체가 아른거린다.
+그 형체는 믿을 수 없을 만큼 빠르게 이 곳을 향해 다가온다.</text>
+      </say>
+      <say name="웨어울프" type="battle" hp="30" weak="빛" hard="">
+        <text>캬오오오오오!!!!!</text>
+      </say>
+    </toweryes>
+    <toweryesfail>
+      <say name="웨어울프" state="fail">
+        <text>겨우 이 정도냐 크르르릉!
+이번엔 내 차례다!</text>
+      </say>
+    </toweryesfail>
+    <toweryeswin>
+      <say name="웨어울프" state="win">
+        <text>으아아아!!
+눈부셔!!! 닝겐으로 돌아가버렷!</text>
+      </say>
+    </toweryeswin>
+  </day1>
+  <day2>
+    <library>
+      <say name="현자">
+        <text>호호호
+세상이 멀쩡한 걸 보니 어제는 훌륭하게 웨어울프를 격파한 모양이지?</text>
+      </say>
+      <say name="현자" type="sellect" remember="">
+        <text>그래 이번엔 무엇이 궁금한가?</text>
+        <sellect go="1">오늘의 마물</sellect>
+        <sellect go="2">이 마을은 어떤 마을인가요?</sellect>
+        <sellect go="3">비타격계의 공격</sellect>
+        <sellect go="4" remove="">불에 잘 타는 것</sellect>
+        <sellect go="end">궁금한 건 없습니다.</sellect>
+      </say>
+    </library>
+    <library1>
+      <say name="현자">
+        <text>흠 오늘은 &lt;color=#FF0000&gt;슬라임&lt;/color&gt;이라는 마물이 나온다고 하더군.</text>
+      </say>
+      <say name="현자">
+        <text>슬라임의 몸은 액체로 되어있기 때문에 물리적인 타격은 그다지 통하지 않을게야...</text>
+        <go>back</go>
+      </say>
+    </library1>
+    <library2>
+      <say name="현자">
+        <text>이 곳은 갈트래빌리지라는 이름이 있지만...
+사람들은 그 이름보단 &lt;color=#ff0000&gt;용자마을&lt;/color&gt;이라고 더 많이하지.</text>
+      </say>
+      <say name="현자">
+        <text>마왕의 탑이 있는한 언젠가는 이런 위기가 찾아올 것이고 그 위기가 찾아오면 용자들이 이 곳에 모일거라 하여 그렇게 부른다고 하네.</text>
+      </say>
+      <say name="현자">
+        <text>용자가 나타났으면 하는 바램이 깃든 이름이라고 할까?
+호호호!</text>
+        <go>back</go>
+      </say>
+    </library2>
+    <library3>
+      <say name="현자">
+        <text>비타격계의 공격이라...
+호호음....
+슬라임은 액체니 &lt;color=#ff0000&gt;불&lt;/color&gt;로 증발시켜 버린다는 것은 어떨까?</text>
+      </say>
+      <say name="현자">
+        <text>현명한 생각이지 않나?
+호호홋!</text>
+        <go>back</go>
+      </say>
+    </library3>
+    <library4>
+      <say name="현자">
+        <text>&lt;color=#FF0000&gt;불에 잘 타는 것&lt;/color&gt;이라...
+아무래도 나무로 된 것들이 잘 타겠지</text>
+      </say>
+      <say name="현자">
+        <text>건초라던가 장작이라던가 종이라던가... 책이라던가....</text>
+      </say>
+      <say name="현자">
+        <text>응? 자네 그 눈은 뭔가?
+호호호.... 설마 아니겠지?</text>
+      </say>
+      <say name="현자">
+        <text>내 책은 안되네!
+끼야야아아악!</text>
+      </say>
+      <say type="give" remove="">
+        <text>책을 뺏어서
+/gname으로 만들었다.</text>
+        <give>뗄감</give>
+      </say>
+    </library4>
+    <weapon>
+      <say name="대장장이">
+        <text>하하! 꼬맹이 어제는 나의 멋진 무기로 활약이 대단했다지?!
+어때?! 이 몸의 무기!
+엄청나지 않아?
+껄껄껄껄!!!!</text>
+      </say>
+      <say name="대장장이" type="sellect">
+        <text>그래! 오늘도 이 몸의 무기로 멋지게 마물을 퇴치해야지?</text>
+        <sellect go="buy">구매</sellect>
+        <sellect go="make">제작</sellect>
+        <sellect>됐어요</sellect>
+      </say>
+    </weapon>
+    <weaponbuy>
+      <say name="대장장이" type="sell">
+        <text>우-하!
+자 여기 내가 밤새 만든 멋진 무기들 좀 구경해 봐!</text>
+        <sell cost="50">낫</sell>
+        <sell cost="100">기사검</sell>
+        <sell cost="50">나무스태프</sell>
+      </say>
+    </weaponbuy>
+    <weaponmake>
+      <say name="대장장이" type="make">
+        <text>뭘 만들어 줄까?! 말만 하라구!</text>
+        <make cost="50" name="횃불">
+          <con>나무막대</con>
+          <con>뗄감</con>
+        </make>
+      </say>
+    </weaponmake>
+    <weaponbuyChk>
+      <say name="대장장이" type="sellect">
+        <text>오옷! /name! 그거 나의 걸작이라구?
+/gold 골드야 살 거야?</text>
+        <sellect go="yes">네</sellect>
+        <sellect go="no">아니오</sellect>
+      </say>
+    </weaponbuyChk>
+    <weaponbuyChkyes>
+      <say name="대장장이" type="buy" con="item">
+        <text>/gold 골드 확실히 받았어!
+잘 쓰라고 꼬마야!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+        <go>buy</go>
+      </say>
+    </weaponbuyChkyes>
+    <weaponbuyChkno>
+      <say name="대장장이">
+        <text>뭐야 내 작품이 마음에 안드는 거야?
+뭐 다른 것도 많으니 천천히 다시 골라봐!</text>
+        <go>buy</go>
+      </say>
+    </weaponbuyChkno>
+    <weaponbuyChkyesfail>
+      <say name="대장장이">
+        <text>어이! 돈이 부족하잖아!
+장난하자는 거야?</text>
+        <go>buy</go>
+      </say>
+    </weaponbuyChkyesfail>
+    <weaponmakeChk>
+      <say name="대장장이" type="buy" con="item">
+        <text>자! /name이 완성됐다구!
+가져가!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <go>make</go>
+    </weaponmakeChk>
+    <weaponmakeChkfail>
+      <say name="대장장이">
+        <text>어이! 재료가 부족하잖아!
+장난하자는 거야?</text>
+        <go>make</go>
+      </say>
+    </weaponmakeChkfail>
+    <training>
+      <say name="헬스트레이너">
+        <text>헥헥-!
+너도 운동하러 왔니?
+후욱-! 후욱-!</text>
+      </say>
+      <say name="헬스트레이너" type="sellect">
+        <text>그래... 헥!헥!
+운동 좋지... 콜록! 콜록!</text>
+        <sellect go="yes" hp="1">운동을 한다</sellect>
+        <sellect go="1">운동을 하면 좋은 점</sellect>
+        <sellect>그냥 간다</sellect>
+      </say>
+    </training>
+    <training1>
+      <say name="헬스트레이너">
+        <text>헉!헉! 운동을 하면 힘이 강해진단다.
+파오후 헉!헉!</text>
+      </say>
+      <say name="헬스트레이너">
+        <text>휴우...
+그 강해진 힘은 마물을 공격할 때 공격력에 더해진단다.</text>
+      </say>
+      <say name="헬스트레이너">
+        <text>예를 들면 공격력이 8인 기사검으로 마물을 공격할 때
+너의 공격력이 3이면 총 10의 데미지를 마물에게 줄 수 있는 거지.</text>
+      </say>
+      <say name="헬스트레이너">
+        <text>무기는 많은데 강한 무기가 없을때.
+공격력이 높다면 그 무기가 강하지 않아도 큰 데미지를 마물에게 줄 수 있는 거지.
+또 공격력은 속성에도 영향을 받지 않아.
+적이 타격속성에 강한 마물이라도 공격력은 데미지 감소 없이 그대로 적용되지.
+하지만 공격력이 아무리 높아도 공격할 수 있는 아이템이 하나도 없다면 마물에게 데미지를 주지 못한다는 점 기억해 둬</text>
+      </say>
+      <say name="헬스트레이너">
+        <text>그리고 운동은 행동력을 소비하니 조심해.</text>
+        <go>back</go>
+      </say>
+    </training1>
+    <trainingyes>
+      <say name="헬스트레이너">
+        <text>그래! 헉헉! 너도 이리로 와!
+함께 운동하자구!</text>
+      </say>
+      <say type="give">
+        <text>공격력이 /gpow 상승했다.</text>
+        <give pow="">2</give>
+      </say>
+      <say name="헬스트레이너">
+        <text>후욱후욱! 어때?
+강해진 듯한 느낌이 드니?</text>
+        <go>back</go>
+      </say>
+    </trainingyes>
+    <pub>
+      <say name="마담">
+        <text>어머 꼬마야 왔니?
+어제는 잘 해냈다지?</text>
+      </say>
+      <say name="마담" type="sellect" remember="">
+        <text>그래 꼬마야 오늘은 또 무슨 볼일이니?
+다른 모함가들도 많이 왔으니 얘기 나눠봐</text>
+        <sellect go="1" remove="">캔들과 대화</sellect>
+        <sellect go="2" remove="">로이드와 대화</sellect>
+        <sellect>그냥 간다</sellect>
+      </say>
+    </pub>
+    <pub1>
+      <say name="캔들">
+        <text>어이 꼬마! 어제는 혼자서 마물을 처치했다며?
+하하! 그만큼 쉬운 상대였겠지!
+하지만 앞으로의 적은 이 불의 마법사 캔들님이 없으면 당해버리고 말 걸?</text>
+      </say>
+      <say name="캔들" type="sellect">
+        <text>원한다면 동료로써 싸워주지!
+아 물론 공짜는 아니야! &lt;color=faed7d&gt;500골드&lt;/color&gt;정도 주면 생각해보지!</text>
+        <sellect go="yes">고용한다</sellect>
+        <sellect>무시한다</sellect>
+      </say>
+    </pub1>
+    <pub1yes>
+      <say name="캔들" con="item" type="give" remove="">
+        <text>좋아! 돈 받은 이상 돈 값은 해주겠다 이거야!</text>
+        <con>
+          <ele gold="">500</ele>
+          <go>fail</go>
+        </con>
+        <give>화염마법사_캔들</give>
+      </say>
+    </pub1yes>
+    <pub1yesfail>
+      <say name="캔들">
+        <text>어이! 돈이 부족하잖아!
+적어도 &lt;color=faed7d&gt;500골드&lt;/color&gt;쯤 주지 않으면 곤란하다고!</text>
+      </say>
+    </pub1yesfail>
+    <pub2>
+      <say name="로이드">
+        <text>헤헤! 이 최강의 검투사 로이드님에게 무슨 볼 일이냐!
+딸꾹! 꺼억! 히히...</text>
+      </say>
+      <say name="로이드" type="sellect">
+        <text>뭐? 마물을 잡으러 가자고?
+어이! 내 검은 공짜로 휘둘러 줄 만큼 가볍지 않아...!
+적어도 &lt;color=faed7d&gt;500골드&lt;/color&gt;는 줘야지!</text>
+        <sellect go="yes">고용한다</sellect>
+        <sellect>고용하지 않는다.</sellect>
+      </say>
+    </pub2>
+    <pub2yes>
+      <say name="로이드" con="item" type="give">
+        <text>딸꾹! 정말 500골드 잖아?
+이거 어쩔 수 없네...
+술 취한 상태로 도움이 되려나...</text>
+        <con>
+          <ele gold="">500</ele>
+          <go>fail</go>
+        </con>
+        <give>술취한_로이드</give>
+      </say>
+    </pub2yes>
+    <pub2yesfail>
+      <say name="로이드">
+        <text>어이! 돈이 부족하잖아!
+적어도 &lt;color=faed7d&gt;500골드&lt;/color&gt;쯤 주지 않으면 곤란하다고!</text>
+      </say>
+    </pub2yesfail>
+    <forest>
+      <say name="표지판">
+        <text>이 앞은 울창한 숲입니다.
+입장하는 것 만으로도 행동력이 닳습니다.
+행동력이 0이되면 행동력이 필요한 행동을 할 수 없습니다.</text>
+      </say>
+      <say name="표지판" type="sellect">
+        <text>정말 입장하겠습니까?</text>
+        <sellect go="1" hp="1">입장한다.</sellect>
+        <sellect go="2">행동력이란?</sellect>
+        <sellect>돌아간다.</sellect>
+      </say>
+    </forest>
+    <forest2>
+      <say name="표지판">
+        <text>행동력은 특정 행위를 하기위해 필요한 수치입니다.
+화면의 왼쪽 위의 하얀색 숫자가 잔여 행동력입니다.</text>
+      </say>
+      <say name="표지판">
+        <text>행동력을 소모하는 행동을 하는 행위는 할지 안 할지 선택할 수 있으며, 그러한 선택지 옆에는 행동력을 의미하는 표시가 있으니 주의해서 선택해주시길 바랍니다.</text>
+      </say>
+      <say name="표지판">
+        <text>행동력을 적재적소에 활용해야만 마물을 퇴치할 수 있습니다.</text>
+        <go>back</go>
+      </say>
+    </forest2>
+    <forest1>
+      <say>
+        <text>당신은 울창한 숲 안으로 발을 들였다.</text>
+      </say>
+      <say type="sellect">
+        <text>양갈래 길이 나왔다.
+오른쪽에는 폐허가 된 탄광이 있고 왼쪽에는 더욱 깊은 숲이 있다.
+어디로 갈까?</text>
+        <sellect go="1" hp="1">왼쪽</sellect>
+        <sellect go="2" hp="1">오른쪽</sellect>
+        <sellect>무섭다. 돌아가자.</sellect>
+      </say>
+    </forest1>
+    <forest11>
+      <say>
+        <text>굵은 가시덩쿨이 길을 가로막고 있다.</text>
+      </say>
+      <say type="give" con="item">
+        <text>낫을 사용해 길을 막던 덩굴을 제거했다!
+잘라낸 /gname을 획득했다!</text>
+        <give>가시덩굴</give>
+        <con>
+          <ele>낫</ele>
+          <go>end</go>
+        </con>
+      </say>
+      <say type="give">
+        <text>빛 조차 새어들어오지 못하지만 주변이 빛으로 가득 찬 신비한 숲에 도달했다.
+/gname을 발견했다.</text>
+        <give>나무막대</give>
+      </say>
+      <say type="sellect">
+        <text>이 앞은 더욱더 깊은 어둠이 깃든 숲 길이 펼쳐져 있다.
+더 나아갈까?</text>
+        <sellect go="1" hp="2">더욱더 깊이 들어간다.</sellect>
+        <sellect>돌아간다.</sellect>
+      </say>
+    </forest11>
+    <forest111>
+      <say>
+        <text>거대한 호수가 있는 곳에 도달했다.</text>
+      </say>
+      <say>
+        <text>그 무엇도 발견할 수 없었다.
+돌아가자.</text>
+      </say>
+    </forest111>
+    <forest12>
+      <say>
+        <text>모든 것을 내어준 채 싸늘하게 버려진 탄광에 도달했다.</text>
+      </say>
+      <say>
+        <text>뭘까 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!
+어딘가 쓸모가 있을 지도?</text>
+        <give>짱돌</give>
+      </say>
+      <say type="sellect">
+        <text>더 나아갈 수 있는 길이 보인다.
+더 나아갈까?</text>
+        <sellect go="1" hp="2">나아간다.</sellect>
+        <sellect>돌아간다.</sellect>
+      </say>
+    </forest12>
+    <forest121>
+      <say>
+        <text>정체불명의 고대사원에 도달했다.</text>
+      </say>
+      <say>
+        <text>뭘까 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!
+어딘가 쓸모가 있을 지도?</text>
+        <give>미니토템</give>
+      </say>
+      <say type="sellect">
+        <text>더 나아갈 수 있는 길이 보인다.</text>
+        <sellect go="1" hp="3">나아간다.</sellect>
+        <sellect>돌아간다.</sellect>
+      </say>
+    </forest121>
+    <forest1211>
+      <say>
+        <text>비밀스러운 숨겨진 동굴에 도착했다.</text>
+      </say>
+      <say>
+        <text>뭘까 뭔가가 있다!</text>
+      </say>
+      <say>
+        <text>보물상자다!
+횡재했다. 누군가가 숨겨놓은 것 같다.</text>
+      </say>
+      <say type="give">
+        <text>보물상자를 여니 금은보화가 가득했다.
+/ggold를 얻었다</text>
+        <give gold="">500</give>
+      </say>
+    </forest1211>
+    <tower>
+      <say>
+        <text>음산한 기운이 흐르는 거대한 탑이 우뚝 솟아있다.</text>
+      </say>
+      <say type="sellect">
+        <text>마왕의 탑에 도전할까?
+실패시 처음부터 다시 해야한다.</text>
+        <sellect go="yes">도전한다.</sellect>
+        <sellect>좀 더 준비를 하고 도전하자!</sellect>
+      </say>
+    </tower>
+    <toweryes>
+      <say ad="">
+        <text>타워에 입장하니 멀리서 기분 나쁜 것이 꿀렁거리며 다가온다.</text>
+      </say>
+      <say name="슬라임" type="battle" hp="100" weak="불" hard="타격">
+        <text>꼬로로로록!!</text>
+      </say>
+    </toweryes>
+    <toweryesfail>
+      <say name="슬라임" state="fail">
+        <text>꼬록!꼬록!
+부악!</text>
+      </say>
+    </toweryesfail>
+    <toweryeswin>
+      <say name="슬라임" state="win">
+        <text>꼬로로로로로로로로로로로로로로로로로로로록!!!!!!</text>
+      </say>
+    </toweryeswin>
+  </day2>
+  <day3>
+    <library>
+      <say name="현자">
+        <text>호호호...
+어제는 내 책을 강탈해 가서 잘 싸웠나?
+호호호...</text>
+      </say>
+      <say name="현자" type="sellect">
+        <text>그래... 오늘은 무엇이 궁금한가?
+아 물론 내 말이 진실이라 확신할 순 없네 호호호호!</text>
+        <sellect go="1">오늘의 마물</sellect>
+        <sellect go="2">화 좀 푸세요.</sellect>
+        <sellect go="3">희귀한 책을 가져왔습니다.<con><ele>냄새나는_고서</ele></con></sellect>
+        <sellect>실례했습니다.</sellect>
+      </say>
+    </library>
+    <library1>
+      <say name="현자">
+        <text>호호호...
+오늘의 마물은 건방진 꼬맹이라고 해서
+노인공경을 하지않고 노인을 공격하는 사악한 녀석이지...
+호호호...</text>
+        <go>back</go>
+      </say>
+    </library1>
+    <library2>
+      <say name="현자">
+        <text>호호호... 화를 풀라니...
+딱히?
+저-언혀?
+이 몸은 별로 화나지 않았다네.
+홋!홋!홋!</text>
+        <go>back</go>
+      </say>
+    </library2>
+    <library3>
+      <say name="현자">
+        <text>앗! 이 냄새는?!</text>
+      </say>
+      <say name="현자">
+        <text>자네! 그 책을 어디서 구했나?
+그거 나 주게!</text>
+      </say>
+      <say name="현자" con="item">
+        <text>홋홋홋!
+횡재했네!</text>
+        <con>
+          <ele>냄새나는_고서</ele>
+          <go />
+        </con>
+      </say>
+      <say name="현자" type="give">
+        <text>기쁘구만! 내 답례로 이걸 주지!</text>
+        <give>북풍의_지팡이</give>
+      </say>
+      <say name="현자" phase="a">
+        <text>이 물건은 책의 보존을 위해 내가 가지고 있었는데.
+그냥 자네 주겠네. 오호호홋!
+그럼 이만 가시게!</text>
+      </say>
+    </library3>
+    <alibrary>
+      <say>
+        <text>문에 쪽지가 붙어있다.</text>
+      </say>
+      <say>
+        <text>"독서중이니 들어오지 마시오."</text>
+      </say>
+    </alibrary>
+    <pub>
+      <say name="마담">
+        <text>어서와 후훗
+어제도 끈적끈적한 녀석을 없앴다며?</text>
+      </say>
+      <say name="마담" type="sellect" remember="">
+        <text>파티를 벌여도 모자란 마당에 그 영감은 왜 울었던 걸까?
+궁금하지 않아?</text>
+        <sellect go="1">그러게요.</sellect>
+        <sellect go="2" remove="">잔느와 대화</sellect>
+        <sellect go="3">새로운 소식은 없나요?</sellect>
+        <sellect>아뇨, 안 궁금합니다.</sellect>
+      </say>
+    </pub>
+    <pub1>
+      <say name="마담">
+        <text>내 생각엔 말이지.
+그 영감 노망이 든 거야!</text>
+      </say>
+      <say name="마담">
+        <text>그야 그 영감 100살이 넘었다잖아?
+정신이 온전치 못 할 만도 할 나이지 않아?
+가능성이 있지 않겠어?</text>
+      </say>
+      <say name="마담">
+        <text>어때?
+그럴듯 하지 않아?
+후훗</text>
+        <go>back</go>
+      </say>
+    </pub1>
+    <pub2>
+      <say name="잔느" type="sellect">
+        <text>안녕하세요? 용자님.
+당신의 활약은 익히 들었습니다.
+저에겐 무슨 일로?</text>
+        <sellect go="1">너 내 동료가 되라!</sellect>
+        <sellect go="2">아름다우십니다.</sellect>
+        <sellect>아무 일도 아닙니다.</sellect>
+      </say>
+    </pub2>
+    <pub22>
+      <say name="잔느">
+        <text>어멋!
+친절한 분이시군요.
+(헤벌레)</text>
+      </say>
+    </pub22>
+    <pub3>
+      <say name="마담">
+        <text>새로운 소식이라?
+그러고 보니 저기있는 상인들이 숲에서 습격을 당했다던데?</text>
+      </say>
+      <say name="마담">
+        <text>흠 희귀한 고서를 두고 도망왔다나?</text>
+      </say>
+      <say name="마담">
+        <text>뭐 그런 냄새나는 책을 좋아할 만한 건 도서관에 있는 영감뿐이겠지만.</text>
+        <go>back</go>
+      </say>
+    </pub3>
+    <pub21>
+      <say name="잔느">
+        <text>제안은 감사드립니다만...
+저는 해야만 하는 일이 있어 이 곳에 왔습니다.
+그 것을 구하기 전엔...</text>
+      </say>
+      <say name="잔느" type="sellect">
+        <text>필요한 것이 뭐냐구요?
+네... 그것이...
+&lt;color=#ff0000&gt;북풍의 지팡이&lt;/color&gt;라고 하는 것인데...
+이 마을에서 그 기운이 느껴집니다.</text>
+        <sellect>내가 구해주지!</sellect>
+        <sellect go="end">그럼 다음기회에...</sellect>
+      </say>
+      <say name="잔느" type="sellect">
+        <text>앗!
+설마 구해오신 건가요?</text>
+        <sellect>당연하지!</sellect>
+        <sellect go="no">그건 아직...</sellect>
+      </say>
+      <say name="잔느" con="item" type="give" remove="">
+        <text>앗! 이 것은...
+어떻게 감사를 해야 할 지 모르겠군요.
+정말 감사합니다!
+마물토벌 하는 거 힘내겠습니다!</text>
+        <con>
+          <ele>북풍의_지팡이</ele>
+          <go>fail</go>
+        </con>
+        <give>북풍의_잔느</give>
+      </say>
+    </pub21>
+    <pub21no>
+      <say name="잔느">
+        <text>그렇군요...
+무리하실 필요는 없습니다 용자님.</text>
+      </say>
+    </pub21no>
+    <pub21fail>
+      <say name="잔느">
+        <text>음...
+북풍의 지팡이를 가지고 오신 것이 맞나요?
+지금은 바람의 기운이 느껴지지 않는 군요.</text>
+      </say>
+    </pub21fail>
+    <weapon>
+      <say name="대장장이" type="sellect">
+        <text>우-하!
+오늘도 어김없이 나의 무기가 필요한가보지?</text>
+        <sellect go="buy">구매</sellect>
+        <sellect go="1">현자가 삐졌습니다.</sellect>
+        <sellect>됐어요</sellect>
+      </say>
+    </weapon>
+    <weaponbuy>
+      <say name="대장장이" type="sell">
+        <text>우-하하하하!
+자 여기 내가 밤새 만든 멋진 무기들 좀 구경해 봐!</text>
+        <sell cost="50">낫</sell>
+        <sell cost="100">기사검</sell>
+        <sell cost="50">나무스태프</sell>
+      </say>
+    </weaponbuy>
+    <weapon1>
+      <say name="대장장이">
+        <text>뭐? 그 영감이 또?
+아- 아- 신경쓰지마 그 영감은 오래 살기만 살았지 속은 영 좁은 영감이야.</text>
+      </say>
+      <say name="대장장이">
+        <text>그 영감이 그거 독서광이라서 말이야...
+좋은 책을 가져다 주면 금방 화를 푼단 말이지!
+하하!!</text>
+      </say>
+      <say name="대장장이">
+        <text>희귀한 책 하나 가져다 주면 금새 싱글벙글해지지 않겠어?</text>
+        <go>back</go>
+      </say>
+    </weapon1>
+    <weaponbuyChk>
+      <say name="대장장이" type="sellect">
+        <text>오옷! /name! 그거 나의 걸작이라구?
+/gold 골드야 살 거야?</text>
+        <sellect go="yes">네</sellect>
+        <sellect go="no">아니오</sellect>
+      </say>
+    </weaponbuyChk>
+    <weaponbuyChkyes>
+      <say name="대장장이" type="buy" con="item">
+        <text>/gold 골드 확실히 받았어!
+잘 쓰라고 꼬마야!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+        <go>buy</go>
+      </say>
+    </weaponbuyChkyes>
+    <weaponbuyChkyesfail>
+      <say name="대장장이">
+        <text>어이! 돈이 부족하잖아!
+장난하자는 거야?</text>
+        <go>buy</go>
+      </say>
+    </weaponbuyChkyesfail>
+    <forest>
+      <say name="표지판">
+        <text>이 앞은 울창한 숲입니다.
+입장하는 것 만으로도 행동력이 닳습니다.
+행동력이 0이되면 행동력이 필요한 행동을 할 수 없습니다.</text>
+      </say>
+      <say name="표지판" type="sellect">
+        <text>정말 입장하겠습니까?</text>
+        <sellect go="1" hp="1">입장한다.</sellect>
+        <sellect>돌아간다.</sellect>
+      </say>
+    </forest>
+    <forest1>
+      <say>
+        <text>당신은 울창한 숲 안으로 발을 들였다.</text>
+      </say>
+      <say type="sellect">
+        <text>양갈래 길이 나왔다.
+오른쪽에는 폐허가 된 탄광이 있고 왼쪽에는 더욱 깊은 숲이 있다.
+어디로 갈까?</text>
+        <sellect go="1" hp="1">왼쪽</sellect>
+        <sellect go="2" hp="1">오른쪽</sellect>
+        <sellect>무섭다. 돌아가자.</sellect>
+      </say>
+    </forest1>
+    <forest11>
+      <say type="give">
+        <text>빛 조차 새어들어오지 못하지만 주변이 빛으로 가득 찬 신비한 숲에 도달했다.
+/gname을 발견했다.</text>
+        <give>나무막대</give>
+      </say>
+      <say type="sellect">
+        <text>이 앞은 더욱더 깊은 어둠이 깃든 숲 길이 펼쳐져 있다.
+더 나아갈까?</text>
+        <sellect go="1" hp="2">더욱더 깊이 들어간다.</sellect>
+        <sellect>돌아간다.</sellect>
+      </say>
+    </forest11>
+    <forest111>
+      <say>
+        <text>숲의 길을 걷던 중 뭔가를 발견했다.
+엄청난 속도로 이 쪽을 향해온다!</text>
+        <give>나무막대</give>
+      </say>
+      <say name="멧돼지" type="battle" hp="8" weak="" hard="">
+        <text>꾸에에에에에에에엑!!!</text>
+      </say>
+    </forest111>
+    <forest111win>
+      <say name="멧돼지">
+        <text>뀌엑!꾸이에에엑!</text>
+      </say>
+      <say>
+        <text>습격한 멧돼지를 처치했다.
+주위를 둘러보자 뭔가를 발견했다.</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!
+냄새난다.</text>
+        <give>냄새나는_고서</give>
+      </say>
+    </forest111win>
+    <forest111fail>
+      <say name="멧돼지">
+        <text>(의기양양)꾸워어어어어어억!</text>
+      </say>
+      <say state="fail">
+        <text>멧돼지에게 패해 사망했다.</text>
+      </say>
+    </forest111fail>
+    <forest12>
+      <say>
+        <text>모든 것을 내어준 채 싸늘하게 버려진 탄광에 도달했다.</text>
+      </say>
+      <say>
+        <text>뭘까 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!
+어딘가 쓸모가 있을 지도?</text>
+        <give>짱돌</give>
+      </say>
+      <say type="sellect">
+        <text>더 나아갈 수 있는 길이 보인다.
+더 나아갈까?</text>
+        <sellect go="1" hp="2">나아간다.</sellect>
+        <sellect>돌아간다.</sellect>
+      </say>
+    </forest12>
+    <forest121>
+      <say>
+        <text>정체불명의 고대사원에 도달했다.</text>
+      </say>
+      <say>
+        <text>뭘까 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!
+어딘가 쓸모가 있을 지도?</text>
+        <give>미니토템</give>
+      </say>
+      <say type="sellect">
+        <text>더 나아갈 수 있는 길이 보인다.</text>
+        <sellect go="1" hp="3">나아간다.</sellect>
+        <sellect>돌아간다.</sellect>
+      </say>
+    </forest121>
+    <forest1211>
+      <say>
+        <text>비밀스러운 숨겨진 동굴에 도착했다.</text>
+      </say>
+      <say>
+        <text>뭘까 뭔가가 있다!</text>
+      </say>
+      <say>
+        <text>보물상자다!
+횡재했다. 누군가가 숨겨놓은 것 같다.</text>
+      </say>
+      <say type="give">
+        <text>보물상자를 여니 금은보화가 가득했다.
+/ggold를 얻었다</text>
+        <give gold="">500</give>
+      </say>
+    </forest1211>
+    <training>
+      <say name="헬스트레이너">
+        <text>헥헥-!
+너도 운동하러 왔니?
+후욱-! 후욱-!</text>
+      </say>
+      <say name="헬스트레이너" type="sellect">
+        <text>그래... 헥!헥!
+운동 좋지... 콜록! 콜록!</text>
+        <sellect go="yes" hp="1">운동을 한다</sellect>
+        <sellect>그냥 간다</sellect>
+      </say>
+    </training>
+    <trainingyes>
+      <say name="헬스트레이너">
+        <text>그래! 헉헉! 너도 이리로 와!
+함께 운동하자구!</text>
+      </say>
+      <say type="give">
+        <text>공격력이 /gpow 상승했다.</text>
+        <give pow="">2</give>
+      </say>
+      <say name="헬스트레이너">
+        <text>후욱후욱! 어때?
+강해진 듯한 느낌이 드니?</text>
+        <go>back</go>
+      </say>
+    </trainingyes>
+    <tower>
+      <say>
+        <text>음산한 기운이 흐르는 거대한 탑이 우뚝 솟아있다.</text>
+      </say>
+      <say type="sellect">
+        <text>마왕의 탑에 도전할까?
+실패시 처음부터 다시 해야한다.</text>
+        <sellect go="yes">도전한다.</sellect>
+        <sellect>좀 더 준비를 하고 도전하자!</sellect>
+      </say>
+    </tower>
+    <toweryes>
+      <say ad="">
+        <text>타워에 입장하니 멀리서 밝은 빛이 일렁인다.
+가까이 갈 수록 견딜 수 없이 뜨거워진다..!</text>
+      </say>
+      <say name="불귀신" type="battle" hp="48" weak="얼음" hard="">
+        <text>네 영혼은 여기서 산화된다.</text>
+      </say>
+    </toweryes>
+    <toweryesfail>
+      <say name="불귀신" state="fail">
+        <text>재로 만들어주마!</text>
+      </say>
+    </toweryesfail>
+    <toweryeswin>
+      <say name="불귀신" state="win">
+        <text>크학!
+새하얗게 불태워 버렸다...!!!</text>
+      </say>
+    </toweryeswin>
+  </day3>
+  <day4>
+    <library>
+      <say name="현자">
+        <text>호호호
+어제 내가 준 지팡이는 도움이 됐나?</text>
+      </say>
+      <say name="현자" type="sellect">
+        <text>그래... 오늘은 무엇이 궁금한가?</text>
+        <sellect go="1">오늘의 마물</sellect>
+        <sellect go="2">오래 살 수 있는 이유.</sellect>
+        <sellect>실례했습니다.</sellect>
+      </say>
+    </library>
+    <library1>
+      <say name="현자">
+        <text>오늘은 &lt;color=#ff0000&gt;큰 눈 개구리&lt;/color&gt;라는 마물이라는 군.
+내가 아는 정보라곤 눈이 크다는 것 밖에 없네 호호호...</text>
+      </say>
+      <say name="현자">
+        <text>뭐 이 정보만으로도 녀석의 약점을 알 수 있지 않겠나?
+눈이 크다는 것 또한 약점이 될 수 있지.
+호호호호!</text>
+        <go>back</go>
+      </say>
+    </library1>
+    <library2>
+      <say name="현자">
+        <text>내가 이렇게 오래 살아있을 수 있는 데에는 이유가 있지.
+호호호</text>
+      </say>
+      <say name="현자">
+        <text>난 진리를 탐구하는 자네.
+전 세계의 지식을 모으고 연구하다가 &lt;color=#ff0000&gt;불로불사의 능력&lt;/color&gt;을 얻어버린 것이네.</text>
+      </say>
+      <say name="현자">
+        <text>하지만 그 능력을 얻었을 때는 이미 늙었던 터라...
+이렇게 노인의 몸으로 영생을 살아가게 되었지...
+큽!</text>
+      </say>
+      <say name="현자">
+        <text>슬픈 과거라네.</text>
+        <go>back</go>
+      </say>
+    </library2>
+    <weapon>
+      <say name="대장장이" type="sellect">
+        <text>우-하하하하하!!!!
+헥헥... 나 좀 도와줘 꼬맹아!</text>
+        <sellect go="3">약을 만들어 왔어요.<con><ele>복통약</ele></con></sellect>
+        <sellect go="1">무슨일이죠?</sellect>
+        <sellect go="2">약을 어떻게 구하나요?</sellect>
+        <sellect>도망간다.</sellect>
+      </say>
+    </weapon>
+    <weapon1>
+      <say name="대장장이">
+        <text>으으..!!
+어젯밤 음식을 잘 못 먹었는지 도저히 복통때문에 서 있을 수가 없다!</text>
+      </say>
+      <say name="대장장이">
+        <text>넌 오늘도 무기가 필요할 텐데...
+몸이 나아지기만 하면 무기를 제작해 주는 정도는 해줄 수 있다구...</text>
+      </say>
+      <say name="대장장이">
+        <text>그러니 어서 구해와 줘!
+내 복통을 다스릴 수 있는 약을...
+우웍;;</text>
+      </say>
+    </weapon1>
+    <weapon2>
+      <say name="대장장이">
+        <text>우-하아!!! 몰라!
+어떤 약이 효과가 있는지도!
+빨리 구해와줘!
+나 죽기 전에!</text>
+      </say>
+    </weapon2>
+    <weapon3>
+      <say name="대장장이" con="item">
+        <text>헉헉 어서줘!!</text>
+        <con>
+          <ele>복통약</ele>
+          <go></go>
+        </con>
+      </say>
+      <say name="대장장이">
+        <text>후아! 이제야 살 것 같구나!
+고맙다 꼬마야!</text>
+      </say>
+      <say name="대장장이" phase="a1">
+        <text>사례로 오늘은 무기를 공짜로 팔기로 하지!
+단 제작은 예외야! 하하하!</text>
+      </say>
+    </weapon3>
+    <a1weapon>
+      <say name="대장장이" type="sellect">
+        <text>오! 꼬맹이 덕분에 살았어!</text>
+        <sellect go="buy">구매</sellect>
+        <sellect go="make">제작</sellect>
+        <sellect>됐어요</sellect>
+      </say>
+    </a1weapon>
+    <a1weaponbuy>
+      <say name="대장장이" type="sell">
+        <text>원하는 건 그냥 가져가!
+고마움의 표시라구!</text>
+        <sell cost="0">기사검</sell>
+        <sell cost="0">나무스태프</sell>
+      </say>
+    </a1weaponbuy>
+    <a1weaponmake>
+      <say name="대장장이" type="make">
+        <text>특별히 제작비용은 공짜로 해주겠어!
+다만 재료는 필요하단다! 하하하!</text>
+        <make cost="0" name="태양검">
+          <con>기사검</con>
+          <con>태양석</con>
+        </make>
+        <make cost="0" name="검은태양">
+          <con>흑태도_데저트_선</con>
+          <con>태양석</con>
+        </make>
+      </say>
+    </a1weaponmake>
+    <pub>
+      <say name="마담" type="sellect" remember="">
+        <text>왔니?
+그래 오늘은 무슨 볼일이야?</text>
+        <sellect go="1">새로운 소식</sellect>
+        <sellect go="2" remove="">로이드와 대화</sellect>
+        <sellect go="3">지노와 대화</sellect>
+        <sellect>그냥 간다.</sellect>
+      </say>
+    </pub>
+    <pub1>
+      <say name="마담">
+        <text>아! 지금 한창 허풍을 늘어놓고 있는 멍청한 손님이 있긴 하지.
+아까 기절한 채로 실려온 녀석인데.</text>
+      </say>
+      <say name="마담">
+        <text>뭐라더라?
+&lt;color=#ff0000&gt;엘프&lt;/color&gt;를 봤다나 뭐라나...
+너무 아름다워서 기절해버렸다더라.</text>
+      </say>
+      <say name="마담">
+        <text>전설속의 엘프가 왜 이런 곳에 있겠니?
+요즘 모험가들의 허세가 하늘을 찌른다니까.</text>
+        <go>back</go>
+      </say>
+    </pub1>
+    <pub2>
+      <say name="로이드">
+        <text>여! 또 보는 구나!
+아... 저번엔 술에 너무 취해서 활약을 못해버렸어!</text>
+      </say>
+      <say name="로이드">
+        <text>이 최강의 검투사의 이름이 우는구나!
+오늘은 꼭 활약해야지!</text>
+      </say>
+      <say name="로이드" type="sellect">
+        <text>미리말해두지만!
+난 &lt;color=#ff0000&gt;혼자&lt;/color&gt; 활약할 거야!
+끼어들 생각 마.</text>
+        <sellect>그러지말고 함께합시다.</sellect>
+        <sellect go="end">그러던가요.</sellect>
+      </say>
+      <say name="로이드">
+        <text>흥! 싫어싫어!
+내가 왜 너같은 꼬맹이랑!</text>
+      </say>
+      <say name="로이드" type="sellect">
+        <text>절세미녀라도 있으면 몰라.
+난 싫어.</text>
+        <sellect>절세미녀를 데려왔어습니다!<con><ele>엘프_실비아</ele></con></sellect>
+        <sellect go="end">그냥 간다.</sellect>
+      </say>
+      <say name="실비아">
+        <text>안녕!</text>
+      </say>
+      <say name="로이드">
+        <text>에에에에엑?!!!!!!!!
+헉!헉!헉!
+이렇게 예쁠수가!!!</text>
+      </say>
+      <say name="로이드">
+        <text>(털썩)</text>
+      </say>
+      <say>
+        <text>로이드는 그대로 쓰러졌다.</text>
+      </say>
+      <say name="실비아">
+        <text>하하!
+인간은 재밌구나!</text>
+      </say>
+      <say type="give" remove="">
+        <text>아쉬운 대로 그가 가지고 있던 무기 /gname을 잠시 빌렸다.</text>
+        <give>흑태도_데저트_선</give>
+      </say>
+    </pub2>
+    <pub3>
+      <say name="지노">
+        <text>아! 정말~!
+내가 진짜 거짓말 안치고 봤다니까!</text>
+      </say>
+      <say name="지노">
+        <text>하... 그 엘프의 아름다운 자태를 보는 순간 눈이 핑-! 하고 돌더니 그대로 기절해서 정신차리니 마을이었다고!</text>
+      </say>
+      <say name="지노">
+        <text>어떻게 생겼는지는 기억이 안나지만 확실히 엘프였어!
+기절할 정도로 아름다웠을 게 틀림없어!
+어서 다시 확인해 봐야하는데!</text>
+        <go>back</go>
+      </say>
+    </pub3>
+    <training>
+      <say name="헬스트레이너">
+        <text>헥헥-!
+너도 운동하러 왔니?
+후욱-! 후욱-!</text>
+      </say>
+      <say name="헬스트레이너" type="sellect">
+        <text>그래... 헥!헥!
+운동 좋지... 콜록! 콜록!</text>
+        <sellect go="yes" hp="1">운동을 한다</sellect>
+        <sellect>그냥 간다</sellect>
+      </say>
+    </training>
+    <trainingyes>
+      <say name="헬스트레이너">
+        <text>그래! 헉헉! 너도 이리로 와!
+함께 운동하자구!</text>
+      </say>
+      <say type="give">
+        <text>공격력이 /gpow 상승했다.</text>
+        <give pow="">2</give>
+      </say>
+      <say name="헬스트레이너">
+        <text>후욱후욱! 어때?
+강해진 듯한 느낌이 드니?</text>
+        <go>back</go>
+      </say>
+    </trainingyes>
+    <forest>
+      <say name="표지판">
+        <text>이 앞은 울창한 숲입니다.
+입장하는 것 만으로도 행동력이 닳습니다.
+행동력이 0이되면 행동력이 필요한 행동을 할 수 없습니다.</text>
+      </say>
+      <say name="표지판" type="sellect">
+        <text>정말 입장하겠습니까?</text>
+        <sellect go="1" hp="1">입장한다.</sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+    </forest>
+    <forest1>
+      <say>
+        <text>당신은 울창한 숲 안으로 발을 들였다.</text>
+      </say>
+      <say type="sellect" remember="">
+        <text>세갈래 길이 나왔다.
+오른쪽에는 폐허가 된 탄광이 있고 왼쪽에는 더욱 깊은 숲이 있다.
+그리고 가운데에는 은빛으로 빛나는 호수가 있다.
+어디로 갈까?</text>
+        <sellect go="1" hp="1" remove="">왼쪽</sellect>
+        <sellect go="2" hp="2" remove="">가운데</sellect>
+        <sellect go="3" hp="1">오른쪽</sellect>
+        <sellect>무섭다. 돌아가자.</sellect>
+      </say>
+    </forest1>
+    <forest11>
+      <say type="sellect">
+        <text>어두운 숲에 도착했지만 그 무엇도 발견할 수 없었다.
+나아갈 수 있는 길이 보인다.</text>
+        <sellect hp="2">나아간다</sellect>
+        <sellect go="end">돌아가자.</sellect>
+      </say>
+      <say>
+        <text>더욱더 깊은 어둠이 스며든 곳에 도달했다.</text>
+      </say>
+      <say type="sellect">
+        <text>어디선가 울음소리가 들린다.</text>
+        <sellect>가까이 가본다.</sellect>
+        <sellect go="end">돌아가자.</sellect>
+      </say>
+      <say name="실비아">
+        <text>훌쩍훌쩍...
+응? 거기, 누구야?</text>
+      </say>
+      <say name="실비아">
+        <text>우앗!
+인간이다!
+다행이다! 다행이야! 히히!</text>
+      </say>
+      <say name="실비아">
+        <text>사실은 여기서 길을 잃었거든...
+아 정말 아무 것도 안 보여서 도무지 길을 찾을 수가 없는 거야!
+그래서 무서워서 울어버렸어! 헷!</text>
+      </say>
+      <say name="실비아">
+        <text>저기...
+무서우니까 함께 행동하자!
+응? 너도 무섭지?
+그치!</text>
+      </say>
+      <say name="실비아" type="give" remove="">
+        <text>좋아! 이제 함께야!
+너네 마을로 가자!</text>
+        <give>엘프_실비아</give>
+      </say>
+    </forest11>
+    <forest12>
+      <say>
+        <text>은빛으로 빛나는 아름다운 호수를 발견했다.</text>
+      </say>
+      <say>
+        <text>잠깐!
+호수 밑에 뭔가가 있다!
+잠수 할 수 있으면 좋으련만...</text>
+      </say>
+      <say name="실비아" con="item">
+        <text>저 아래에 있는게 필요해?
+그렇다면 맡겨줘!</text>
+        <con>
+          <ele stay="">엘프_실비아</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <say name="실비아">
+        <text>내 바람의 정령의 힘으로 물 한 방울 안 뭍히고 꺼낼 수 있으니까!
+잘 봐!</text>
+      </say>
+      <say>
+        <text>이내 엄청난 바람이 일어 소용돌이를 일으켰고
+물보라가 우릴 덮쳤다.</text>
+      </say>
+      <say name="실비아">
+        <text>하하! 물에 빠진 생쥐꼴이 되어버렸네!
+뭐 어때!
+저기 네가 원하던 게 나왔어!</text>
+      </say>
+      <say type="give" remove="">
+        <text>다가가 살펴보니 /gname이었다.
+어딘가 쓸모있을 지도.</text>
+        <give>복통약</give>
+      </say>
+    </forest12>
+    <forest12fail>
+      <say>
+        <text>별 수 없지 돌아가자.</text>
+      </say>
+    </forest12fail>
+    <forest13>
+      <say>
+        <text>버려진 탄광에 도달했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다.</text>
+        <give>짱돌</give>
+      </say>
+      <say type="sellect">
+        <text>나아갈 수 있는 길이 보인다.</text>
+        <sellect hp="2">나아간다</sellect>
+        <sellect go="end">돌아가자.</sellect>
+      </say>
+      <say>
+        <text>서리바람이 부는 칼날바람초원에 도착했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다.</text>
+        <give>태양석</give>
+      </say>
+    </forest13>
+    <a1weaponbuyChk>
+      <say name="대장장이" type="sellect">
+        <text>오옷! /name! 그거 나의 걸작이라구?
+가져가!</text>
+        <sellect go="yes">네</sellect>
+        <sellect go="no">아니오</sellect>
+      </say>
+    </a1weaponbuyChk>
+    <a1weaponbuyChkyes>
+      <say name="대장장이" type="buy" con="item">
+        <text>잘 쓰라고 꼬마야!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+        <go>buy</go>
+      </say>
+    </a1weaponbuyChkyes>
+    <a1weaponbuyChkno>
+      <say name="대장장이">
+        <text>뭐야 내 작품이 마음에 안드는 거야?
+뭐 다른 것도 많으니 천천히 다시 골라봐!</text>
+        <go>buy</go>
+      </say>
+    </a1weaponbuyChkno>
+    <a1weaponbuyChkyesfail>
+      <say name="대장장이">
+        <text>어이! 돈이 부족하잖아!
+장난하자는 거야?</text>
+        <go>buy</go>
+      </say>
+    </a1weaponbuyChkyesfail>
+    <a1weaponmakeChk>
+      <say name="대장장이" type="buy" con="item">
+        <text>자! /name이 완성됐다구!
+가져가!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <go>make</go>
+    </a1weaponmakeChk>
+    <a1weaponmakeChkfail>
+      <say name="대장장이">
+        <text>어이! 재료가 부족하잖아!
+장난하자는 거야?</text>
+        <go>make</go>
+      </say>
+    </a1weaponmakeChkfail>
+    <tower>
+      <say>
+        <text>음산한 기운이 흐르는 거대한 탑이 우뚝 솟아있다.</text>
+      </say>
+      <say type="sellect">
+        <text>마왕의 탑에 도전할까?
+실패시 처음부터 다시 해야한다.</text>
+        <sellect go="yes">도전한다.</sellect>
+        <sellect>좀 더 준비를 하고 도전하자!</sellect>
+      </say>
+    </tower>
+    <toweryes>
+      <say ad="">
+        <text>타워에 입장하니 멀리서 방정맞게 뛰어다니는 기묘한 형상이 보인다.
+이 쪽으로 펄쩍펄쩍 뛰어오고 있다!</text>
+      </say>
+      <say name="큰_눈_개구리" type="battle" hp="89" weak="빛" hard="">
+        <text>께헤헤헤헤헤헷!
+개굴!</text>
+      </say>
+    </toweryes>
+    <toweryesfail>
+      <say name="큰_눈_개구리">
+        <text>간지럽다...! 끼히히잇!</text>
+      </say>
+      <say name="큰_눈_개구리" state="fail">
+        <text>너! 재미! 없다! 끼헷! 죽어라!</text>
+      </say>
+    </toweryesfail>
+    <toweryeswin>
+      <say name="큰_눈_개구리" state="win">
+        <text>끼헤헤헷!
+죽는다! 죽어! 께헤헤헷!
+개굴개굴개-굴!</text>
+      </say>
+    </toweryeswin>
+  </day4>
+  <day5>
+    <library>
+      <say name="현자">
+        <text>호호호!
+오늘은 아침부터 기분이 좋구만!</text>
+      </say>
+      <say name="현자" type="sellect">
+        <text>그래... 오늘은 무엇이 궁금한가?</text>
+        <sellect>오늘의 마물</sellect>
+        <sellect go="1">엘프에 대하여</sellect>
+        <sellect go="end">실례했습니다.</sellect>
+      </say>
+      <say name="현자">
+        <text>오늘은 트롤족의 왕이 나왔다고 하더군.
+이름이 &lt;color=#ff0000&gt;브론즈&lt;/color&gt;라고 했던가?</text>
+      </say>
+      <say name="현자">
+        <text>녀석은 멍청한 트롤이면서도 정신공격을 펼치는 위험한 녀석이지.
+호호호!</text>
+        <go>back</go>
+      </say>
+    </library>
+    <library1>
+      <say name="현자">
+        <text>호호호! 엘프라...
+전설속의 그 엘프말인가?</text>
+      </say>
+      <say name="현자">
+        <text>엘프는 실존했네.
+하지만 엘프라는 종족이 자취를 감춘지가 이미 500년이 넘었지.</text>
+      </say>
+      <say name="현자">
+        <text>어떤 원인 때문에 외부와의 접촉을 차단했다는 것이 내 생각이네.</text>
+      </say>
+      <say name="현자">
+        <text>하지만 이 마을에 엘프가 등장했다지?
+흐음... 갑자기 모습을 드러낸 이유가 뭘까?
+호호호! 이거 흥미가 샘솟는 군!</text>
+        <go>back</go>
+      </say>
+    </library1>
+    <실비아>
+      <say name="실비아">
+        <text>안녕! 좋은 아침이야!
+어제 우리의 활약덕분에 맞이할 수 있는 아침이지!</text>
+      </say>
+      <say name="실비아" type="sellect" remember="">
+        <text>어때! 오늘도 힘내서 함께 마물을 물리쳐보자!</text>
+        <sellect go="1" remove="">함께가자!</sellect>
+        <sellect>실비아의 능력</sellect>
+        <sellect go="2">이 곳에 온 이유</sellect>
+        <sellect go="end">실례했습니다.</sellect>
+      </say>
+      <say name="실비아">
+        <text>응? 내 능력? 그세 까먹어 버린 거야?
+어제 내가 바람의 힘으로 엄청나게 중요한 물건을 건져올렸잖아?</text>
+      </say>
+      <say name="실비아">
+        <text>그거야 그거!
+난 바람의 정령을 부릴 수 있어.
+그런데 그렇게 능숙하게 다루진 못해서.
+바람과 상성이 좋은 무기인 활을 사용하는 거야.</text>
+      </say>
+      <say name="실비아">
+        <text>정령의 힘으로 바람의 길을 만들어 놓으면 어떻게 쏘던 내 화살은 백발백중이지!
+내 화살에 도망가는 것은 불가능해! 히히!</text>
+      </say>
+      <say name="실비아">
+        <text>어때 좀 든든해?</text>
+        <go>back</go>
+      </say>
+    </실비아>
+    <실비아1>
+      <say name="실비아">
+        <text>역시 혼자선 겁나는 법이지!</text>
+      </say>
+      <say type="give">
+        <text>/gname이 동료로 들어왔다.</text>
+        <give>엘프_실비아</give>
+      </say>
+      <say name="실비아">
+        <text>이제 내가 있으니 걱정마.
+무섭지 않을 거야!</text>
+      </say>
+      <say name="실비아" remove="">
+        <text>나와 얘기하고 싶으면 언제든 나한테 오면 돼!</text>
+        <go>back</go>
+      </say>
+    </실비아1>
+    <실비아2>
+      <say name="실비아">
+        <text>엘프를 지키기 위해서야.
+지금에 와서는 우리 엘프족의 개체수는 얼마 남지 않았어.</text>
+      </say>
+      <say name="실비아">
+        <text>엘프에게만 도는 전염병에 동족들이 다 죽어가고 있어.
+하지만 마을 밖으로 나가는 것은 금기라서 다들 죽기만을 기다리고 있는 거야.</text>
+      </say>
+      <say name="실비아">
+        <text>그래서 모든 병을 치료할 수 있다고 하는 황금미나리를 찾아다녔던 거야.
+그런데 좀 처럼 찾아지지가 않아서...</text>
+      </say>
+      <say name="실비아">
+        <text>그 와중에 너와 만난 거야.
+세계의 위기라며?
+우선 세계를 구해야 동족들도 구할 수 있지 않겠어?</text>
+      </say>
+      <say name="실비아" type="sellect">
+        <text>나도 널 도와 마물을 처치하는 것을 도울테니 너도 황금미나리를 찾는 것을 도와줘!
+꼭이야!</text>
+        <sellect>알았어.</sellect>
+      </say>
+      <say name="실비아">
+        <text>좋아! 배신은 없기야!</text>
+      </say>
+    </실비아2>
+    <pub>
+      <say name="마담" type="sellect" remember="">
+        <text>안녕 꼬마야 또 왔구나.
+그래 오늘은 무슨 볼 일 이니?</text>
+        <sellect go="1">새로운 소식</sellect>
+        <sellect go="2" remove="">로이드와 대화</sellect>
+        <sellect go="3">로이드와 대화<con><ele>검은태양</ele></con></sellect>
+        <sellect go="4" remove="">로이드와 대화<con><ele>흑태도_데저트_선</ele></con></sellect>
+        <sellect go="end">그냥 간다</sellect>
+      </say>
+    </pub>
+    <pub1>
+      <say name="마담">
+        <text>지금 빅 이슈라 하면 우리 마을에 엘프가 찾아왔다는 거지!
+엘프라니 난 틀림없이 멸종했을 거라 생각했는데 말야.</text>
+      </say>
+      <say name="마담">
+        <text>그래서 지금 난리도 아냐.
+뭐 덕분에 술집은 만원이라 장사가 잘 되서 좋지만 말이야. 후훗.</text>
+        <go>back</go>
+      </say>
+    </pub1>
+    <pub2>
+      <say name="로이드">
+        <text>너! 어제는 잘도 내 검을 훔쳐갔겠다?!</text>
+      </say>
+      <say name="로이드">
+        <text>게다가 나의 데저트 선에 무슨 짓을 해 놓은 거야?!
+그 무기는 완전한 검정색이어야만 멋이 있는 거란 말야!</text>
+      </say>
+      <say name="로이드" type="give">
+        <text>이거 줄테니까 어서 원래대로 돌려 놔!</text>
+        <give>검은태양</give>
+      </say>
+      <say name="로이드" remove="">
+        <text>너 그거 들고 도망가면 안된다?!
+알겠지!!</text>
+      </say>
+    </pub2>
+    <pub3>
+      <say name="로이드">
+        <text>꾸물거리지 말고 어서 원래대로 돌려놔!
+그 전엔 너랑 절교니까!</text>
+      </say>
+      <say>
+        <text>그는 나를 친구로 생각했던 것 같다.</text>
+        <go>back</go>
+      </say>
+    </pub3>
+    <pub4>
+      <say name="로이드" con="">
+        <text>앗! 고쳐왔구나!
+하하 그래! 내 무기는 이래야 멋있지!</text>
+        <con>
+          <ele>흑태도_데저트_선</ele>
+          <go />
+        </con>
+      </say>
+      <say name="로이드" type="give">
+        <text>좋아 잘 했어.
+그럼 용돈 약간 줄게 히힛!
+그럼 이만 가봐!</text>
+        <give gold="">100</give>
+      </say>
+    </pub4>
+    <weapon>
+      <say name="대장장이">
+        <text>하하하! 마왕덕에 무기장사가 잘 되서 기분이 좋구나!</text>
+      </say>
+      <say name="대장장이" type="sellect">
+        <text>그래! 무슨 볼일이냐?</text>
+        <sellect go="buy">구매</sellect>
+        <sellect go="make">생성</sellect>
+        <sellect go="end">돌아 간다.</sellect>
+      </say>
+    </weapon>
+    <weaponbuy>
+      <say name="대장장이" type="sell">
+        <text>자! 골라봐!
+아 물론 어제처럼 공짜는 아니야!</text>
+        <sell cost="100">기사검</sell>
+        <sell cost="50">나무스태프</sell>
+        <sell cost="50">나무스태프</sell>
+        <sell cost="50">낫</sell>
+        <sell cost="50">낫</sell>
+        <sell cost="50">망치</sell>
+        <sell cost="50">망치</sell>
+      </say>
+    </weaponbuy>
+    <weaponmake>
+      <say name="대장장이" type="make">
+        <text>자 뭘 만들고 싶어?
+물론 재료와 약간의 보수는 네가 준비해 와야 하는 거 알지?</text>
+        <make cost="0" name="흑태도_데저트_선">
+          <con>검은태양</con>
+        </make>
+      </say>
+    </weaponmake>
+    <weaponbuyChk>
+      <say name="대장장이" type="sellect">
+        <text>오옷! /name! 그거 나의 걸작이라구?
+/gold야 살 거야?</text>
+        <sellect go="yes">네</sellect>
+        <sellect go="no">아니오</sellect>
+      </say>
+    </weaponbuyChk>
+    <weaponbuyChkyes>
+      <say name="대장장이" type="buy" con="item">
+        <text>/gold 확실하게 받았어!
+잘 쓰라고 꼬마야!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+        <go>buy</go>
+      </say>
+    </weaponbuyChkyes>
+    <weaponbuyChkno>
+      <say name="대장장이">
+        <text>뭐야 내 작품이 마음에 안드는 거야?
+뭐 다른 것도 많으니 천천히 다시 골라봐!</text>
+        <go>buy</go>
+      </say>
+    </weaponbuyChkno>
+    <weaponbuyChkyesfail>
+      <say name="대장장이">
+        <text>어이! 돈이 부족하잖아!
+장난하자는 거야?</text>
+        <go>buy</go>
+      </say>
+    </weaponbuyChkyesfail>
+    <weaponmakeChk>
+      <say name="대장장이" type="buy" con="item">
+        <text>자! /name이 완성됐다구!
+가져가!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <go>make</go>
+    </weaponmakeChk>
+    <weaponmakeChkfail>
+      <say name="대장장이">
+        <text>어이! 재료가 부족하잖아!
+장난하자는 거야?</text>
+        <go>make</go>
+      </say>
+    </weaponmakeChkfail>
+    <tower>
+      <say>
+        <text>음산한 기운이 흐르는 거대한 탑이 우뚝 솟아있다.</text>
+      </say>
+      <say type="sellect">
+        <text>마왕의 탑에 도전할까?
+실패시 처음부터 다시 해야한다.</text>
+        <sellect go="yes">도전한다.</sellect>
+        <sellect>좀 더 준비를 하고 도전하자!</sellect>
+      </say>
+    </tower>
+    <toweryes>
+      <say ad="">
+        <text>타워에 입장하니 멀리서 쌍욕을 뱉으며 무언가가 다이브 하려한다!</text>
+      </say>
+      <say name="브론즈" type="battle" hp="269" weak="" hard="">
+        <text>두 다이브!
+어둠에 빠진 자들을 제거하라! 제거하라!</text>
+      </say>
+    </toweryes>
+    <toweryesfail>
+      <say name="브론즈">
+        <text>당신의 실력은 형편없소!</text>
+      </say>
+      <say name="브론즈" state="fail">
+        <text>소리에게돈!</text>
+      </say>
+    </toweryesfail>
+    <toweryeswin>
+      <say name="브론즈" state="win">
+        <text>젠장... 일찍 쏘는 침이 적을 터트리는 법이거늘...
+(탕! 탕!)</text>
+      </say>
+    </toweryeswin>
+    <training>
+      <say name="헬스트레이너">
+        <text>헥헥-!
+너도 운동하러 왔니?
+후욱-! 후욱-!</text>
+      </say>
+      <say name="헬스트레이너" type="sellect">
+        <text>그래... 헥!헥!
+운동 좋지... 콜록! 콜록!</text>
+        <sellect go="yes" hp="1">운동을 한다</sellect>
+        <sellect>그냥 간다</sellect>
+      </say>
+    </training>
+    <trainingyes>
+      <say name="헬스트레이너">
+        <text>그래! 헉헉! 너도 이리로 와!
+함께 운동하자구!</text>
+      </say>
+      <say type="give">
+        <text>공격력이 /gpow 상승했다.</text>
+        <give pow="">2</give>
+      </say>
+      <say name="헬스트레이너">
+        <text>후욱후욱! 어때?
+강해진 듯한 느낌이 드니?</text>
+        <go>back</go>
+      </say>
+    </trainingyes>
+    <forest>
+      <say name="표지판">
+        <text>이 앞은 울창한 숲입니다.
+입장하는 것 만으로도 행동력이 닳습니다.
+행동력이 0이되면 행동력이 필요한 행동을 할 수 없습니다.</text>
+      </say>
+      <say name="표지판" type="sellect">
+        <text>정말 입장하겠습니까?</text>
+        <sellect go="1" hp="1">입장한다.</sellect>
+        <sellect>돌아간다.</sellect>
+      </say>
+    </forest>
+    <forest1>
+      <say>
+        <text>당신은 울창한 숲 안으로 발을 들였다.</text>
+      </say>
+      <say type="sellect" remember="">
+        <text>양갈래길이 나왔다.
+왼쪽은 우거진 정글 오른쪽은 버려진 탄광이 있다.</text>
+        <sellect go="1" hp="1">왼쪽</sellect>
+        <sellect go="2" hp="1">오른쪽</sellect>
+        <sellect>무섭다. 돌아가자.</sellect>
+      </say>
+    </forest1>
+    <forest11>
+      <say>
+        <text>우거진 정글에 도달했다.
+뭘까? 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다.</text>
+        <give>나무막대</give>
+      </say>
+      <say type="sellect" remember="">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="2">나아간다</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>맹수가 가득한 곳에 도달했다.
+뭔가가 이 쪽을 향해 돌진해온다!</text>
+      </say>
+      <say name="멧돼지" type="battle" hp="8" weak="" hard="">
+        <text>꾸에에에에에에에엑!!!</text>
+      </say>
+    </forest11>
+    <forest11win>
+      <say name="멧돼지">
+        <text>뀌엑!꾸이에에엑!</text>
+      </say>
+      <say>
+        <text>습격한 멧돼지를 처치했다.
+주위를 둘러보자 뭔가를 발견했다.</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!
+냄새난다.</text>
+        <give>숙해나물</give>
+      </say>
+      <say type="sellect" remember="">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="3">나아간다</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>가시덩굴이 길을 막고있다.</text>
+      </say>
+      <say con="" type="give">
+        <text>가시덩굴을 제거하고 /gname을 얻었다!</text>
+        <con>
+          <ele>낫</ele>
+          <go>fail</go>
+        </con>
+        <give>가시덩굴</give>
+      </say>
+      <say type="sellect" remember="">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="4">나아간다</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>더욱더 깊은 정글에 도달했다.
+빛이 들어오지 않아서인지 한기가 서려있다.</text>
+      </say>
+      <say>
+        <text>잠깐! 누군가가 있다!</text>
+      </say>
+      <say name="잔느">
+        <text>또만났군요 용자님.
+활약이 여전히 대단하시다 들었습니다.</text>
+      </say>
+      <say name="잔느" type="give">
+        <text>이런 곳에서 만난 것도 인연이니 저도 그 위업에 참가하고 싶군요.</text>
+        <give>북풍의_잔느</give>
+      </say>
+      <say name="잔느">
+        <text>제가 마물을 해치우는데 도움이 될 수 있기를...</text>
+      </say>
+    </forest11win>
+    <forest11winfail>
+      <say>
+        <text>지나갈 수단이 없으니 일단 돌아가자.</text>
+      </say>
+    </forest11winfail>
+    <forest11fail>
+      <say name="멧돼지">
+        <text>(의기양양)꾸워어어어어어억!</text>
+      </say>
+      <say state="fail">
+        <text>멧돼지에게 패해 사망했다.</text>
+      </say>
+    </forest11fail>
+    <forest12>
+      <say>
+        <text>탄광으로 가는 길을 거대한 바위가 막고있다.</text>
+      </say>
+      <say con="">
+        <text>바위를 망치로 부수자 제법 괜찮은 모양의 돌맹이들이 많이 생겼다</text>
+        <con>
+          <ele>망치</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <say type="give">
+        <text>/gname 7개를 얻었다.</text>
+        <give>짱돌</give>
+        <give>짱돌</give>
+        <give>짱돌</give>
+        <give>짱돌</give>
+        <give>짱돌</give>
+        <give>짱돌</give>
+        <give>짱돌</give>
+      </say>
+      <say type="sellect" remember="">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="2">나아간다</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>버려진 탄광에 도달했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다.</text>
+      </say>
+      <say type="give">
+        <text>/gname을 획득했다.</text>
+        <give>미니토템</give>
+      </say>
+      <say type="sellect" remember="">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="3">나아간다</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>버려진 탄광 내부에 들어왔다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다.</text>
+      </say>
+      <say type="give">
+        <text>/gname를 획득했다.</text>
+        <give>나무스태프</give>
+      </say>
+    </forest12>
+    <forest12fail>
+      <say>
+        <text>지나갈 수 있는 수단이 없으니 일단 돌아가자.</text>
+      </say>
+    </forest12fail>
+  </day5>
+  <day6>
+    <library>
+      <say name="현자">
+        <text>어제는 브론즈에게 돌팔매질을 했다지?
+호호호! 이거 왠지 통쾌하구만!</text>
+      </say>
+      <say name="현자" type="sellect">
+        <text>그래... 오늘은 무엇이 궁금한가?</text>
+        <sellect>오늘의 마물</sellect>
+        <sellect go="1">마인에 관하여</sellect>
+        <sellect go="2">벌레같은 것을 잡았습니다!<con><ele>작은요정</ele></con></sellect>
+        <sellect go="end">실례했습니다.</sellect>
+      </say>
+      <say name="현자">
+        <text>흠 오늘은 지금까지와는 차원이 다른 녀석이 나타난 모양이야...
+&lt;color=#ff0000&gt;마인-세다우&lt;/color&gt;
+오늘 나타난 녀석의 이름이지.</text>
+      </say>
+      <say name="현자">
+        <text>지금까지의 마물들 처럼 그렇게 간단하진 않을 걸세.
+한 마디로 이 날 부터는 난이도가 급격히 상승한다는 말이지.
+호호호...</text>
+      </say>
+      <say name="현자">
+        <text>오늘부턴 지금까지보다 더 강하고 많은 무기와 동료를 모아야 할 걸세.</text>
+        <go>back</go>
+      </say>
+    </library>
+    <library1>
+      <say name="현자">
+        <text>마인은 마물중에서도 한 단계 위의 상위종족이라 생각하면 되네.
+조금 다르지만 우리 인간과 동물의 차이랄까...
+뭐 그런 거네 호호호.</text>
+      </say>
+      <say name="현자">
+        <text>왠지 세다우를 시작으로 앞으로 마인만 나올 것으로 예상되는 구만!</text>
+        <go>back</go>
+      </say>
+    </library1>
+    <library2>
+      <say name="현자">
+        <text>아니! 그 작고 귀여운 것은?!!
+요정이잖아!</text>
+      </say>
+      <say name="현자">
+        <text>오오 세상에 이 귀한 것을 보게될 줄이야!
+깊은 숲에서 무리지어 산다는 것을 듣긴 했지만... 오오!</text>
+      </say>
+      <say name="현자" type="sellect">
+        <text>이 요정 나 주게!
+그럼 내 강력한 마법 지팡이를 주지!</text>
+        <sellect>준다.</sellect>
+        <sellect go="1">주지않는다.</sellect>
+      </say>
+      <say name="현자" type="give" con="">
+        <text>오오 고맙네!
+자 어서 연구에 들어가자꾸나 요정아!</text>
+        <give>현자의_지팡이</give>
+        <con>
+          <ele>작은요정</ele>
+          <go />
+        </con>
+      </say>
+    </library2>
+    <library21>
+      <say name="현자">
+        <text>힝...
+생각이 바뀌면 다시오게..</text>
+      </say>
+    </library21>
+    <pub>
+      <say name="마담" type="sellect" remember="">
+        <text>이를 어쩐담...</text>
+        <sellect>무슨 일이죠?</sellect>
+        <sellect go="1" remove="">로이드에게 술을 건낸다.<con><ele>맥주</ele></con></sellect>
+        <sellect go="2" remove="">잔느에게 술을 건낸다.<con><ele>맥주</ele></con></sellect>
+        <sellect go="4" remove="">잔느에게 현자의 지팡이를 준다.<con><ele>현자의_지팡이</ele><ele>북풍의_잔느</ele></con></sellect>
+        <sellect go="3" remove="">캔들에게 술을 건낸다.<con><ele>맥주</ele></con></sellect>
+        <sellect go="end">그냥 간다</sellect>
+      </say>
+      <say name="마담">
+        <text>그게... 손님은 갈 수록 늘어나는데 술이 모자라...
+이대로는 몇 시간안에 거덜나겠어.</text>
+      </say>
+      <say name="마담">
+        <text>하여간 저 머저리들 술 마시고 노는 것 외에는 하는 게 없으니...
+한숨만 나온다니까?</text>
+      </say>
+      <say name="마담">
+        <text>그래서 그런데 네가 좀 구해줘
+여기서 서쪽으로 쭉 가면 타 지역으로 갈 수 있는 길이 있을 거야.
+&lt;color=#ff0000&gt;버리마을&lt;/color&gt;에 가면 술을 구할 수 있을 거야.</text>
+      </say>
+      <say name="마담">
+        <text>그럼 서둘러줘!</text>
+      </say>
+    </pub>
+    <pub1>
+      <say name="로이드" con="" remove="">
+        <text>응? 그 술 나 주는 거야?
+이야! 마침 술이 없다길래 시무룩해 하던 참이었어!</text>
+        <con>
+          <ele>맥주</ele>
+          <go />
+        </con>
+      </say>
+      <say>
+        <text>로이드와 술을 마시며 대화를 나눴다.</text>
+      </say>
+      <say name="로이드">
+        <text>캬아! 취한다!
+역시 넌 좋은 녀석이야!
+내가 한 눈에 알아봤다니까?</text>
+      </say>
+      <say name="로이드" type="sellect">
+        <text>그래. 뭐든 한 가지 들어줄게!
+말만해봐!</text>
+        <sellect>동료가 되라!</sellect>
+        <sellect go="1">돈 좀 줘.</sellect>
+      </say>
+      <say name="로이드">
+        <text>뭐 그 정도야 간단하지.</text>
+      </say>
+      <say name="로이드" type="give">
+        <text>오늘은 내가 있으니 무난하게 쉽게 넘어가겠는걸?!</text>
+        <give>검투사_로이드</give>
+      </say>
+    </pub1>
+    <pub11>
+      <say name="로이드" type="give">
+        <text>뭐야 너 거지야?
+뭐 됐어!
+자 한 /ggold 정도면 됐지?</text>
+        <give gold="">300</give>
+      </say>
+    </pub11>
+    <pub2>
+      <say name="잔느" con="" remove="">
+        <text>앗 그건 맥주가 아닙니까?
+저에게 주시려는 건가요?</text>
+        <con>
+          <ele>맥주</ele>
+          <go />
+        </con>
+      </say>
+      <say name="잔느">
+        <text>정말 감사합니다 용자님.
+영광이에요.
+안 그래도 아쉬워하던 차였습니다.</text>
+      </say>
+      <say>
+        <text>잔느와 술을 마시며 대화를 나눴다.</text>
+      </say>
+      <say name="잔느">
+        <text>정말 즐겁고 영광스러운 시간이었습니다.</text>
+      </say>
+      <say name="잔느">
+        <text>점점 용자님과의 유대의 끈이 생기는 기분이 드는군요.
+앗! 주제넘은 말이었다면 죄송합니다.</text>
+      </say>
+      <say name="잔느">
+        <text>이 호의에 대한 보답으로 용자님의 여정길에 보탬이 되고 싶습니다.
+제가 가난한 마법사 신분이라 해드릴 수 있는 것이 많지 않다는 것이 아쉬울 뿐입니다.</text>
+      </say>
+      <say name="잔느" type="give">
+        <text>걸림돌이 되지 않기위해 힘내겠습니다!</text>
+        <give>북풍의_잔느</give>
+      </say>
+    </pub2>
+    <pub3>
+      <say name="캔들" con="" remove="">
+        <text>아! 그거 술이잖아!
+이리내!</text>
+        <con>
+          <ele>맥주</ele>
+          <go />
+        </con>
+      </say>
+      <say name="캔들">
+        <text>캬! 좋다!
+음 그런데 이거 내가 술을 뺏은 거 같잖아?</text>
+      </say>
+      <say name="캔들" type="sellect">
+        <text>이 대마법사 캔들님은 빚지고는 못 사는 성격이지!
+그래 값을 지불하면 되냐?</text>
+        <sellect>동료가 되라!</sellect>
+        <sellect go="1">돈 좀 줘.</sellect>
+      </say>
+      <say name="캔들" type="give">
+        <text>뭐 그 정도야 간단한 일이지.</text>
+        <give>화염마법사_캔들</give>
+      </say>
+    </pub3>
+    <pub31>
+      <say name="캔들" type="give">
+        <text>째잔하게 돈 달라하기야?
+힝...
+나 돈 별로 없으니 /ggold 밖에 못줘...
+그 대신 /gname도 줄게.</text>
+        <give gold="">150</give>
+        <give>횃불</give>
+      </say>
+    </pub31>
+    <pub4>
+      <say name="잔느">
+        <text>앗! 용자님 이 지팡이는?
+이런 강력한 지팡이는 어디서 구하신 걸까...</text>
+      </say>
+      <say name="잔느">
+        <text>이런 걸 받아도 될지 모르겠으나 일단 감사히 받겠습니다.
+이 지팡이는 세상에 더 없을 정도로 강력한 것이군요.</text>
+      </say>
+      <say name="잔느" type="give" con="">
+        <text>이 지팡이와 함께라면 절대 용자님에게 폐를 끼칠 일이 없을 거에요.</text>
+        <con>
+          <ele>북풍의_잔느</ele>
+          <ele>현자의_지팡이</ele>
+          <go />
+        </con>
+        <give>현자_잔느</give>
+      </say>
+      <say name="잔느">
+        <text>마인조차 이길 수 있을 것 같은 느낌이 듭니다.
+어서 절 탑에 데려가주세요 용자님.</text>
+      </say>
+    </pub4>
+    <area>
+      <say type="sellect">
+        <text>이 길은 마을 밖으로 이어진다.
+마을 밖으로 나갈까?</text>
+        <sellect hp="1">마을 밖으로</sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+      <say type="sellect">
+        <text>당신은 마을 밖으로 나섰습니다.
+어느 곳으로 향하겠습니까?</text>
+        <sellect hp="10">버리마을</sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+      <say type="sellect" remember="">
+        <text>버리마을에 도착했습니다.
+무엇을 하시겠습니까?</text>
+        <sellect go="1">촌장과 대화</sellect>
+        <sellect go="2">아비와 대화</sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+    </area>
+    <area1>
+      <say type="sellect" name="버리">
+        <text>오오! 타지인인가?
+난 촌장인 버리일세
+무슨 일로 오셨나?</text>
+        <sellect>술을 구하러 왔습니다.</sellect>
+        <sellect go="1">버리마을에 대하여</sellect>
+        <sellect go="back">대화를 그만둔다.</sellect>
+      </say>
+      <say name="버리">
+        <text>술이라...
+술이라면 내가 아니라.
+농부인 아비에게 가보게.</text>
+        <go>back</go>
+      </say>
+    </area1>
+    <area11>
+      <say name="버리">
+        <text>이 마을은 농업지대로 유명하지.
+매년 여러가지 작물을 수확한다네.</text>
+      </say>
+      <say name="버리">
+        <text>수확한 작물로 여러가지 만들어서 판매하기도 한다네.
+술과 음식같은 걸 말일세.</text>
+        <go>back</go>
+      </say>
+    </area11>
+    <area2>
+      <say name="아비" type="sellect">
+        <text>너 같은 타지인이 우리의 상등품 작물을 얻기 위해 많이들 오지!
+원하는 게 뭐야?</text>
+        <sellect go="buy">구매</sellect>
+        <sellect go="back">대화를 그만둔다.</sellect>
+      </say>
+    </area2>
+    <area2buy>
+      <say name="아비" type="sell">
+        <text>우리들이 1년간 수확한 상품들을 잘 구경해 봐!</text>
+        <sell cost="10">맥주</sell>
+        <sell cost="10">맥주</sell>
+        <go>back</go>
+      </say>
+    </area2buy>
+    <areabuyChk>
+      <say type="buy" con="item">
+        <text>/gold 골드를 지불하고 /name을 구매했습니다.</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+        <go>back</go>
+      </say>
+    </areabuyChk>
+    <areabuyChkfail>
+      <say>
+        <text>골드가 부족합니다.</text>
+        <go>back</go>
+      </say>
+    </areabuyChkfail>
+    <weapon>
+      <say name="대장장이">
+        <text>오늘 나온 녀석은 특별히 강한 녀석이라지?</text>
+      </say>
+      <say name="대장장이" type="sellect">
+        <text>그래서 내가 특별히 희귀한 재료를 사용한 강한 무기들을 준비했다 이거야!
+하하하!!!</text>
+        <sellect go="buy">구매</sellect>
+        <sellect go="make">생성</sellect>
+        <sellect go="end">돌아 간다.</sellect>
+      </say>
+    </weapon>
+    <weaponbuy>
+      <say name="대장장이" type="sell">
+        <text>자! 골라봐!
+아! 그리고 오늘부터 살 건지 안 살 건지 확인 안 할 거야.
+장비를 고르면 바로 사는 거라고!
+히히히!</text>
+        <sell cost="200">로즈대거</sell>
+        <sell cost="100">기사검</sell>
+        <sell cost="50">나무스태프</sell>
+        <sell cost="50">낫</sell>
+        <sell cost="50">낫</sell>
+        <sell cost="50">망치</sell>
+        <sell cost="50">망치</sell>
+        <sell cost="50">곡괭이</sell>
+        <sell cost="50">곡괭이</sell>
+      </say>
+    </weaponbuy>
+    <weaponbuyChk>
+      <say name="대장장이" type="buy" con="item">
+        <text>/gold골드 확실히 받았어!
+/name은 가져도 좋아!!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+        <go>buy</go>
+      </say>
+    </weaponbuyChk>
+    <weaponbuyChkfail>
+      <say name="대장장이">
+        <text>어이! 돈이 부족하잖아!</text>
+        <go>buy</go>
+      </say>
+    </weaponbuyChkfail>
+    <weaponmake>
+      <say name="대장장이" type="make">
+        <text>자 뭘 만들고 싶어?
+물론 재료와 약간의 보수는 네가 준비해 와야 하는 거 알지?</text>
+        <make cost="0" name="흑철검">
+          <con>기사검</con>
+          <con>철광석</con>
+        </make>
+      </say>
+    </weaponmake>
+    <weaponmakeChk>
+      <say name="대장장이" type="buy" con="item">
+        <text>자! /name이 완성됐다구!
+가져가!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+        <go>make</go>
+      </say>
+    </weaponmakeChk>
+    <weaponmakeChkfail>
+      <say name="대장장이">
+        <text>어이! 재료가 부족하잖아!
+장난하자는 거야?</text>
+        <go>make</go>
+      </say>
+    </weaponmakeChkfail>
+    <tower>
+      <say ad="">
+        <text>음산한 기운이 흐르는 거대한 탑이 우뚝 솟아있다.</text>
+      </say>
+      <say type="sellect">
+        <text>마왕의 탑에 도전할까?
+실패시 처음부터 다시 해야한다.</text>
+        <sellect go="yes">도전한다.</sellect>
+        <sellect>좀 더 준비를 하고 도전하자!</sellect>
+      </say>
+    </tower>
+    <toweryes>
+      <say name="마인-세다우">
+        <text>용케 이 날까지 버텨왔군...
+하지만 그 것도 오늘로 마지막...</text>
+      </say>
+      <say name="마인-세다우">
+        <text>이 몸은 그 누구에게도 지지 않는다.</text>
+      </say>
+      <say name="마인-세다우" type="battle" hp="339" weak="" hard="">
+        <text>날뛰어봐라.
+하등종족들아.</text>
+      </say>
+    </toweryes>
+    <toweryesfail>
+      <say name="마인-세다우">
+        <text>급이 다르다는 걸 깨달았는가?</text>
+      </say>
+      <say name="마인-세다우" state="fail">
+        <text>그럼 이 세상과 함께 편안히 잠들도록.</text>
+      </say>
+    </toweryesfail>
+    <toweryeswin>
+      <say name="마인-세다우">
+        <text>이, 이럴리가...
+마인인 내가 하등한 인간에게...!!</text>
+      </say>
+      <say name="마인-세다우" state="win">
+        <text>우쭐대지 말거라...
+아직 내 위엔 더욱더 강한 마인들이 있으니까!
+끄아아악!</text>
+      </say>
+    </toweryeswin>
+    <forest>
+      <say name="표지판">
+        <text>이 앞은 울창한 숲입니다.
+입장하는 것 만으로도 행동력이 닳습니다.
+행동력이 0이되면 행동력이 필요한 행동을 할 수 없습니다.</text>
+      </say>
+      <say name="표지판" type="sellect">
+        <text>정말 입장하겠습니까?</text>
+        <sellect hp="1">입장한다.</sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+      <say>
+        <text>당신은 울창한 숲 안으로 발을 들였다.</text>
+      </say>
+      <say type="sellect" remember="">
+        <text>양갈래길이 나왔다.
+왼쪽은 우거진 정글 오른쪽은 버려진 탄광이 있다.</text>
+        <sellect go="1" hp="1">왼쪽</sellect>
+        <sellect go="2" hp="1">오른쪽</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+    </forest>
+    <forest1>
+      <say>
+        <text>우거진 정글에 도달했다.
+뭘까? 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다.</text>
+        <give>나무막대</give>
+      </say>
+      <say type="sellect">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="2">나아간다</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>맹수가 가득한 곳에 도달했다.
+뭔가가 이 쪽을 향해 돌진해온다!</text>
+      </say>
+      <say name="멧돼지" type="battle" hp="8" weak="" hard="">
+        <text>꾸에에에에에에에엑!!!</text>
+      </say>
+    </forest1>
+    <forest1win>
+      <say name="멧돼지">
+        <text>뀌엑!꾸이에에엑!</text>
+      </say>
+      <say>
+        <text>습격한 멧돼지를 처치했다.
+주위를 둘러보자 뭔가를 발견했다.</text>
+      </say>
+      <say type="give">
+        <text>/ggold을 발견했다!
+냄새난다.</text>
+        <give gold="">100</give>
+      </say>
+      <say type="sellect">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="3">나아간다</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>가시덩굴이 길을 막고있다.</text>
+      </say>
+      <say con="" type="give">
+        <text>가시덩굴을 제거하고 /gname을 얻었다!</text>
+        <con>
+          <ele>낫</ele>
+          <go>fail</go>
+        </con>
+        <give>가시덩굴</give>
+      </say>
+      <say type="sellect">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="4">나아간다</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>더욱더 깊은 정글에 도달했다.
+빛이 들어오지 않아서인지 한기가 서려있다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 이 쪽으로 다가온다!</text>
+      </say>
+      <say name="멧돼지">
+        <text>꾸잉꾸잉!</text>
+      </say>
+      <say name="멧돼지" type="give">
+        <text>묘하게 나를 따르고 있다!</text>
+        <give>애완멧돼지</give>
+      </say>
+      <say>
+        <text>좋은 전력이 될 것이다.</text>
+      </say>
+      <say type="sellect">
+        <text>양갈래 길이 펼쳐져 있다.
+왼쪽은 요정의 숲이 오른쪽엔 황금의 산이 있다.</text>
+        <sellect hp="5">왼쪽</sellect>
+        <sellect hp="5" go="1">오른쪽</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>사방의 은은한 빛이 이리저리 날아다닌다.</text>
+      </say>
+      <say name="요정">
+        <text>삑삑삑!
+(인간이다!
+인간이 이렇게 깊은 숲까지 들어오다니!
+드문일인데...)</text>
+      </say>
+      <say type="give">
+        <text>시끄럽게구는 작은 벌레 같은 것을 잡았다!</text>
+        <give>작은요정</give>
+      </say>
+    </forest1win>
+    <forest1win1>
+      <say>
+        <text>황금의 산 내부에 도달하자 주변이 온통 번쩍거리는 금은보화가 가득하다.</text>
+      </say>
+      <say type="give">
+        <text>/ggold를 얻었다!</text>
+        <give gold="">20000</give>
+      </say>
+    </forest1win1>
+    <forest1winfail>
+      <say>
+        <text>지나갈 수단이 없으니 일단 돌아가자.</text>
+      </say>
+    </forest1winfail>
+    <forest1fail>
+      <say name="멧돼지">
+        <text>(의기양양)꾸워어어어어어억!</text>
+      </say>
+      <say state="fail">
+        <text>멧돼지에게 패해 사망했다.</text>
+      </say>
+    </forest1fail>
+    <forest2>
+      <say>
+        <text>버려진 탄광에 도착했다.</text>
+      </say>
+      <say>
+        <text>앗! 무언가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다.</text>
+        <give>짱돌</give>
+      </say>
+      <say type="sellect">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="2">나아간다</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>광산 내부로 들어섰다.</text>
+      </say>
+      <say type="sellect">
+        <text>눈 앞에 철광석이 있다.
+캐 갈까?</text>
+        <sellect hp="3">캔다(곡괭이 소모)<con><ele>곡괭이</ele></con></sellect>
+        <sellect hp="3" go="1">그냥간다.</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say type="give">
+        <text>/gname을 2개 얻었다.</text>
+        <give>철광석</give>
+        <give>철광석</give>
+        <go>21</go>
+      </say>
+    </forest2>
+    <forest21>
+      <say>
+        <text>고대사원에 도착했다.</text>
+      </say>
+      <say>
+        <text>뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다.</text>
+        <give>미니토템</give>
+      </say>
+      <say type="sellect">
+        <text>단단한 문이 앞을 가로막고 있다.</text>
+        <sellect>부순다.</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say name="거대한문" type="battle" hp="100" weak="" hard="">
+        <text>출입금지</text>
+      </say>
+    </forest21>
+    <forest21win>
+      <say name="거대한문">
+        <text>와장창!</text>
+      </say>
+      <say>
+        <text>거대한 문을 부수자 작은 방이 나왔다.</text>
+      </say>
+      <say>
+        <text>뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다.</text>
+        <give>미니토템</give>
+      </say>
+    </forest21win>
+    <forest21fail>
+      <say>
+        <text>거대한 문을 부술 순 없었다.
+돌아가자.</text>
+      </say>
+    </forest21fail>
+    <실비아>
+      <say name="실비아">
+        <text>오늘도 좋은 아침이야!</text>
+      </say>
+      <say name="실비아" type="sellect" remember="">
+        <text>어때! 오늘도 힘내서 함께 마물을 물리쳐보자!
+황금미나리를 찾는 것도 잊지마!</text>
+        <sellect remove="">함께가자!</sellect>
+        <sellect go="end">실례했습니다.</sellect>
+      </say>
+      <say name="실비아">
+        <text>히히! 역시 내 도움이 필요하지?</text>
+      </say>
+      <say name="실비아" remove="" type="give">
+        <text>좋아! 가자!</text>
+        <go>back</go>
+        <give>엘프_실비아</give>
+      </say>
+    </실비아>
+    <training>
+      <say name="헬스트레이너">
+        <text>헥헥-!
+너도 운동하러 왔니?
+후욱-! 후욱-!</text>
+      </say>
+      <say name="헬스트레이너" type="sellect">
+        <text>그래... 헥!헥!
+운동 좋지... 콜록! 콜록!</text>
+        <sellect go="yes" hp="1">운동을 한다</sellect>
+        <sellect>그냥 간다</sellect>
+      </say>
+    </training>
+    <trainingyes>
+      <say name="헬스트레이너">
+        <text>그래! 헉헉! 너도 이리로 와!
+함께 운동하자구!</text>
+      </say>
+      <say type="give">
+        <text>공격력이 /gpow 상승했다.</text>
+        <give pow="">2</give>
+      </say>
+      <say name="헬스트레이너">
+        <text>후욱후욱! 어때?
+강해진 듯한 느낌이 드니?</text>
+        <go>back</go>
+      </say>
+    </trainingyes>
+  </day6>
+  <day7>
+    <library>
+      <say name="현자">
+        <text>호호호! 설마 마인까지 물리칠 줄이야!
+생각보다 대단하구나!</text>
+      </say>
+      <say name="현자" type="sellect">
+        <text>그래... 오늘은 무엇이 궁금한가?</text>
+        <sellect>오늘의 마물</sellect>
+        <sellect go="1">기사검에 불의 힘을 부여한다.<con><ele>불씨</ele><ele>기사검</ele></con></sellect>
+        <sellect go="2">나무스태프에 불의 힘을 부여한다.<con><ele>불씨</ele><ele>나무스태프</ele></con></sellect>
+        <sellect go="end">실례했습니다.</sellect>
+      </say>
+      <say name="현자">
+        <text>호호호! 예상대로 오늘도 마인이 출현했군.
+&lt;color=#ff0000&gt;마인-제노시아&lt;/color&gt; 이번 마인의 이름이지.</text>
+      </say>
+      <say name="현자">
+        <text>어제의 세다우보다 강하다면 강하고 약하다면 약한 녀석이지.</text>
+      </say>
+      <say name="현자">
+        <text>세다우는 그저 근육덩어리여서 깡데미지로 승부를 봐야했지만 제노시아는 다르지.
+제노시아는 &lt;color=#ff0000&gt;칼날폭풍&lt;/color&gt;이라는 별명이 있네.
+즉 녀석의 속성은 &lt;color=#ff0000&gt;바람&lt;/color&gt;이라는 뜻인데...
+바람속성의 우위에 있는 것은 불이지.</text>
+      </say>
+      <say name="현자">
+        <text>즉 이번엔 불과 관련된 것들을 모으는 데에 집중하면 못 이길 것도 없지.</text>
+        <go>back</go>
+      </say>
+    </library>
+    <library1>
+      <say name="현자" con="" type="give">
+        <text>호호호! 기사검에 이 꺼지지 않는 불로 인챈트 완료했네.
+활활 타오르는 검이 됐구만!</text>
+        <con>
+          <ele>불씨</ele>
+          <ele>기사검</ele>
+          <go />
+        </con>
+        <give>불의_검</give>
+      </say>
+    </library1>
+    <library2>
+      <say name="현자" con="" type="give">
+        <text>호호호! 나무스태프에 이 꺼지지 않는 불로 인챈트 완료했네.
+활활 타오르는 스태프가 됐구만!</text>
+        <con>
+          <ele>불씨</ele>
+          <ele>화염스태프</ele>
+          <go />
+        </con>
+        <give>화염스태프</give>
+      </say>
+    </library2>
+    <training>
+      <say name="헬스트레이너">
+        <text>헥헥-!
+너도 운동하러 왔니?
+후욱-! 후욱-!</text>
+      </say>
+      <say name="헬스트레이너" type="sellect">
+        <text>그래... 헥!헥!
+운동 좋지... 콜록! 콜록!</text>
+        <sellect go="yes" hp="1">운동을 한다</sellect>
+        <sellect>그냥 간다</sellect>
+      </say>
+    </training>
+    <trainingyes>
+      <say name="헬스트레이너">
+        <text>그래! 헉헉! 너도 이리로 와!
+함께 운동하자구!</text>
+      </say>
+      <say type="give">
+        <text>공격력이 /gpow 상승했다.</text>
+        <give pow="">1</give>
+      </say>
+      <say name="헬스트레이너">
+        <text>후욱후욱! 어때?
+강해진 듯한 느낌이 드니?</text>
+        <go>back</go>
+      </say>
+    </trainingyes>
+    <tower>
+      <say>
+        <text>음산한 기운이 흐르는 거대한 탑이 우뚝 솟아있다.</text>
+      </say>
+      <say type="sellect">
+        <text>마왕의 탑에 도전할까?
+실패시 처음부터 다시 해야한다.</text>
+        <sellect go="yes">도전한다.</sellect>
+        <sellect>좀 더 준비를 하고 도전하자!</sellect>
+      </say>
+    </tower>
+    <toweryes>
+      <say ad="">
+        <text>타워에 입장하자 무시무시한 강풍이 덮친다.</text>
+      </say>
+      <say name="마인-제노시아">
+        <text>나... 바람...
+너... 나그네...</text>
+      </say>
+      <say name="마인-제노시아" type="battle" hp="681" weak="불" hard="">
+        <text>나그네... 칼로... 죽인다...
+키킥!</text>
+      </say>
+    </toweryes>
+    <toweryesfail>
+      <say name="마인-제노시아" state="fail">
+        <text>인간... 약하다...
+약하면... 죽는다...
+죽는다... 너...</text>
+      </say>
+    </toweryesfail>
+    <toweryeswin>
+      <say name="마인-제노시아">
+        <text>나... 졌다...
+뭔가... 이상...</text>
+      </say>
+      <say name="마인-제노시아" state="win">
+        <text>인간... 하찮은... 하지만... 졌다...
+너... 사기다...
+끼야아아아악!</text>
+      </say>
+    </toweryeswin>
+    <weapon>
+      <say name="대장장이">
+        <text>오늘 나온 녀석은 특별히 강한 녀석이라지?</text>
+      </say>
+      <say name="대장장이" type="sellect">
+        <text>그래서 내가 특별히 희귀한 재료를 사용한 강한 무기들을 준비했다 이거야!
+하하하!!!</text>
+        <sellect go="buy">구매</sellect>
+        <sellect go="make">생성</sellect>
+        <sellect go="1" hp="10">아르바이트를 한다.</sellect>
+        <sellect go="end">돌아 간다.</sellect>
+      </say>
+    </weapon>
+    <weapon1>
+      <say name="대장장이" type="give">
+        <text>하하하!! 녀석 열심히 일하는 구나!
+자! 일 한 만큼은 주지!
+/ggold 정도면 불만 없을 거야! 하하하하하!</text>
+        <give gold="">200</give>
+        <go>back</go>
+      </say>
+    </weapon1>
+    <weaponbuy>
+      <say name="대장장이" type="sell">
+        <text>자! 골라봐!
+아! 그리고 오늘부터 살 건지 안 살 건지 확인 안 할 거야.
+장비를 고르면 바로 사는 거라고!
+히히히!</text>
+        <sell cost="200">로즈대거</sell>
+        <sell cost="100">기사검</sell>
+        <sell cost="50">나무스태프</sell>
+        <sell cost="50">낫</sell>
+        <sell cost="50">낫</sell>
+        <sell cost="50">망치</sell>
+        <sell cost="50">망치</sell>
+        <sell cost="50">곡괭이</sell>
+        <sell cost="50">곡괭이</sell>
+      </say>
+    </weaponbuy>
+    <weaponbuyChk>
+      <say name="대장장이" type="buy" con="item">
+        <text>/gold골드 확실히 받았어!
+/name은 가져도 좋아!!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+        <go>buy</go>
+      </say>
+    </weaponbuyChk>
+    <weaponbuyChkfail>
+      <say name="대장장이">
+        <text>어이! 돈이 부족하잖아!</text>
+        <go>buy</go>
+      </say>
+    </weaponbuyChkfail>
+    <weaponmake>
+      <say name="대장장이" type="make">
+        <text>자 뭘 만들고 싶어?
+물론 재료와 약간의 보수는 네가 준비해 와야 하는 거 알지?</text>
+        <make cost="50" name="흑철검">
+          <con>기사검</con>
+          <con>철광석</con>
+        </make>
+        <make cost="50" name="기사검">
+          <con>철광석</con>
+        </make>
+        <make cost="20" name="나무스태프">
+          <con>나무막대</con>
+        </make>
+      </say>
+    </weaponmake>
+    <weaponmakeChk>
+      <say name="대장장이" type="buy" con="item">
+        <text>자! /name이 완성됐다구!
+가져가!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+        <go>make</go>
+      </say>
+    </weaponmakeChk>
+    <weaponmakeChkfail>
+      <say name="대장장이">
+        <text>어이! 재료가 부족하잖아!
+장난하자는 거야?</text>
+        <go>make</go>
+      </say>
+    </weaponmakeChkfail>
+    <실비아>
+      <say name="실비아">
+        <text>오늘도 좋은 아침이야!</text>
+      </say>
+      <say name="실비아" type="sellect" remember="">
+        <text>어때! 오늘도 힘내서 함께 마물을 물리쳐보자!
+황금미나리를 찾는 것도 잊지마!</text>
+        <sellect remove="">함께가자!</sellect>
+        <sellect go="end">실례했습니다.</sellect>
+      </say>
+      <say name="실비아">
+        <text>히히! 역시 내 도움이 필요하지?</text>
+      </say>
+      <say name="실비아" remove="" type="give">
+        <text>좋아! 가자!</text>
+        <go>back</go>
+        <give>엘프_실비아</give>
+      </say>
+    </실비아>
+    <area>
+      <say type="sellect">
+        <text>이 길은 마을 밖으로 이어진다.
+마을 밖으로 나갈까?</text>
+        <sellect hp="1">마을 밖으로</sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+      <say type="sellect" remember="">
+        <text>당신은 마을 밖으로 나섰습니다.
+어느 곳으로 향하겠습니까?</text>
+        <sellect hp="8" go="1">서리고원</sellect>
+        <sellect hp="10" go="2">염진부족마을</sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+    </area>
+    <area1>
+      <say type="sellect" remember="">
+        <text>서리고원에 도착했다.
+많은 난민들이 추위와 굶주림에 고통받고 있다.
+무엇을 하시겠습니까?</text>
+        <sellect>사냥</sellect>
+        <sellect go="1" remove="">서쪽에 고기를 나눠준다.<con><ele>고기</ele></con></sellect>
+        <sellect go="1" remove="">북쪽에 고기를 나눠준다.<con><ele>고기</ele></con></sellect>
+        <sellect go="1" remove="">동쪽에 고기를 나눠준다.<con><ele>고기</ele></con></sellect>
+        <sellect go="2" hp="1">탐험한다<con><ele>고기</ele></con></sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+      <say name="멧돼지" type="battle" hp="8" weak="" hard="">
+        <text>꾸에에에에에에에엑!!!
+나 좀 그만 괴롭혀라!!!!!</text>
+      </say>
+    </area1>
+    <area1win>
+      <say type="give">
+        <text>멧돼지를 처치하고 고기를 얻었다.</text>
+        <give>고기</give>
+        <go>back</go>
+      </say>
+    </area1win>
+    <area1fail>
+      <say name="멧돼지">
+        <text>(의기양양)꾸워어어어어어억!</text>
+      </say>
+      <say state="fail">
+        <text>멧돼지에게 패해 사망했다.</text>
+      </say>
+    </area1fail>
+    <area11>
+      <say name="난민" con="" remove="">
+        <text>우걱우걱! 나으리 고맙습니다요!
+보답을 하고싶습니다요!</text>
+        <con>
+          <ele>고기</ele>
+          <go />
+        </con>
+      </say>
+      <say type="give">
+        <text>고기를 먹고 건강해진 난민을 3명 동료로 받아들였다.</text>
+        <give>서리고원_난민</give>
+        <give>서리고원_난민</give>
+        <give>서리고원_난민</give>
+        <go>back</go>
+      </say>
+    </area11>
+    <area12>
+      <say>
+        <text>넓은 빙판이 지평선 너머까지 펼쳐져 있다.</text>
+      </say>
+      <say type="sellect">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="2">나아간다</sellect>
+        <sellect go="back">무섭다. 돌아가자.</sellect>
+      </say>
+      <say type="sellect">
+        <text>얼음동굴이 있다.
+하지만 거대한 얼음으로 막혀있다.</text>
+        <sellect go="back">돌아가자.</sellect>
+      </say>
+    </area12>
+    <area2>
+      <say type="sellect" remember="">
+        <text>염진부족마을에 도착했다.</text>
+        <sellect>부족장과 대화</sellect>
+        <sellect go="1">염진족 상인과 대화</sellect>
+        <sellect go="2" hp="1">탐험한다.<con><ele>불꽃심장_캔들</ele></con></sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+      <say type="sellect" name="염진부족장 적요">
+        <text>염진부족에 무슨 볼 일 이오?</text>
+        <sellect>염진부족에 대하여</sellect>
+        <sellect go="back">돌아간다.</sellect>
+      </say>
+      <say name="염진부족장 적요">
+        <text>우리 부족은 대대로 붉은 화룡을 모셔온 부족이오.</text>
+      </say>
+      <say name="염진부족장 적요">
+        <text>세상이 멸망하는 날 화룡이 나타나 세상을 구할 것이다.
+대대로 전해오는 예언이오.</text>
+      </say>
+      <say name="염진부족장 적요">
+        <text>우리는 예언대로 오랜 옛날부터 이렇게 화룡을 지키고 있소.
+우리의 이 긴 의무도 화룡이 인정하는 자가 나타난 다면 그 것으로 끝 날 테지만...</text>
+        <go>back</go>
+      </say>
+    </area2>
+    <area21>
+      <say type="sellect" name="염진족 상인">
+        <text>우리 염진족은 뜨거운 피가 흐른다.</text>
+        <sellect>구매</sellect>
+        <sellect go="back">돌아간다.</sellect>
+      </say>
+      <say name="염진족 상인" type="sell">
+        <text>우리 염진족은 뜨거운 물건만 취급한다.
+골라봐라.</text>
+        <sell cost="200">화염스태프</sell>
+        <go>back</go>
+      </say>
+    </area21>
+    <area22>
+      <say>
+        <text>길을 걷다 뜨거운 기운이 느껴지는 초원에 도착했다.</text>
+      </say>
+      <say>
+        <text>아득히 높은 하늘에서 목소리가 들려온다.</text>
+      </say>
+      <say name="화룡" con="">
+        <text>그대는 화염의 극에 달했군.
+이 화룡이 어울려 주기에 부족함이 없다.</text>
+        <con>
+          <ele>불꽃심장_캔들</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <say name="화룡">
+        <text>자 나의 모든 것을 받아가라!</text>
+      </say>
+      <say name="캔들">
+        <text>끄아아아아아아아악!!!</text>
+      </say>
+      <say name="캔들">
+        <text>허억...허억...</text>
+      </say>
+      <say name="캔들" type="give">
+        <text>몸이 뜨거워...
+이게 화룡의 힘인 건가?
+대단하군...</text>
+        <give>화룡_캔들</give>
+      </say>
+      <say name="캔들">
+        <text>강철마저 한 순간에 증발시켜버릴 수 있을 것 같은 힘이야.
+좋아 가자!
+이 정도의 힘이 있다면 두려울 게 없지!</text>
+        <go>back</go>
+      </say>
+    </area22>
+    <area22fail>
+      <say name="화룡">
+        <text>나의 힘을 물려받을 자격이 있는 자가 나타난다면.
+난 깨어날 수 있다.</text>
+        <go>back</go>
+      </say>
+    </area22fail>
+    <areabuyChk>
+      <say type="buy" con="item">
+        <text>/gold 골드를 지불하고 /name을 구매했습니다.</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+        <go>back</go>
+      </say>
+    </areabuyChk>
+    <areabuyChkfail>
+      <say>
+        <text>골드가 부족합니다.</text>
+        <go>back</go>
+      </say>
+    </areabuyChkfail>
+    <pub>
+      <say name="마담" type="sellect" remember="">
+        <text>저번엔 고마웠어.
+이제 술이 모자라서 부탁할 일은 없을 거야.
+창고 가득 채워놨으니 말야 후후후.</text>
+        <sellect>새로운 소식</sellect>
+        <sellect go="1" remove="">캔들과 대화</sellect>
+        <sellect go="2" remove="">렐릭과 대화</sellect>
+        <sellect go="3" remove="">캔들에게 불의 심장을 준다.<con><ele>불의_심장</ele><ele>화염마법사_캔들</ele></con></sellect>
+        <sellect go="3" remove="">캔들에게 술을 건낸다.<con><ele>맥주</ele></con></sellect>
+        <sellect go="end">그냥 간다</sellect>
+      </say>
+      <say name="마담">
+        <text>그러고보니 떠돌이 모험가들이 보물에 대한 얘기를 하던 걸?
+고대사원에는 대단한 보물이 잠들어 있다는 얘긴 전 부터 있었는데...
+갑자기 그 보물을 거금을 주고 사겠다는 사람이 있다지 뭐야?</text>
+      </say>
+      <say name="마담">
+        <text>마침 그 사람도 여기 있으니 더 자세한 얘기는 그 자에게 가서 물어봐.
+분명 렐릭이라는 이름이었을 거야.</text>
+        <go>back</go>
+      </say>
+    </pub>
+    <pub1>
+      <say name="캔들" type="sellect">
+        <text>여! 또보는군.
+미리 말해두지만 난 500골드 정도 주지 않으면 절대 안움직여.</text>
+        <sellect>내 동료가 되라!</sellect>
+        <sellect go="back">알겠다.</sellect>
+      </say>
+      <say name="캔들" con="">
+        <text>흠 너 도대체 이런 거금을 어디서 구해오는 거야?</text>
+        <con>
+          <ele gold="">500</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <say name="캔들" type="give" remove="">
+        <text>사나이 캔들 돈 받고 오리발 내밀 수는 없지!
+좋아 함께해주마.</text>
+        <give>화염마법사_캔들</give>
+      </say>
+    </pub1>
+    <pub1fail>
+      <say name="캔들">
+        <text>돈이 부족하잖아!</text>
+      </say>
+    </pub1fail>
+    <pub2>
+      <say name="렐릭">
+        <text>자네 고대사원에 가 본 적이 있나?
+난 가 봤다네. 그리고 보았지.
+찬란하게 빛나는 고대의 금반지를 말야.</text>
+      </say>
+      <say name="렐릭">
+        <text>하지만 결국 손에 넣을 수는 없었어.
+입구가 거대한 철문으로 막혀있었거든</text>
+      </say>
+      <say name="렐릭">
+        <text>그런 유물이 어느 정도의 가치를 가졌다고 생각하나?
+그 것도 그런 거대한 문이 지키고 있을 정도의 유물이 말일세.</text>
+      </say>
+      <say name="렐릭" type="sellect">
+        <text>만약 자네가 그 것을 가져온다면 내 전재산을 자네에게 주도록 하지.
+틀림없이 그럴만한 가치가 있는 물건일게야.</text>
+        <sellect>금반지를 가져왔다.<con><ele>고대_금반지</ele></con></sellect>
+        <sellect go="back">알겠다.</sellect>
+      </say>
+      <say name="렐릭" con="">
+        <text>오오오! 정말 대단해! 특히 여기 새겨진 고대의 문자가!
+뭔가의 열쇠인 것 같은 느낌도 드는군!</text>
+        <con>
+          <ele>고대_금반지</ele>
+          <go />
+        </con>
+      </say>
+      <say name="렐릭">
+        <text>사실 내가 가난한 고고학자라 전 재산이 별로 없네...
+하지만 주기로 했으니 뭔갈 줘야겠고...</text>
+      </say>
+      <say name="렐릭" type="give">
+        <text>이런 건 어떤가?
+전국을 돌며 모은 불씨일세.
+영원히 꺼지지 않는 불의 씨앗이지.
+지금까지 모은 불씨를 전부 주겠네.</text>
+        <give>불씨</give>
+        <give>불씨</give>
+        <give>불씨</give>
+      </say>
+      <say name="렐릭">
+        <text>이 불씨로 무기에 화염속성을 부여하는 게 가능하지.
+공격력도 더 강해진다네.</text>
+      </say>
+      <say name="렐릭" remove="">
+        <text>그럼 난 이만 연구를 위해 떠나겠네
+잘 지내시게!</text>
+      </say>
+    </pub2>
+    <pub3>
+      <say name="캔들">
+        <text>뭐야 그 뜨거운 건?
+불의 심장이라고?
+오오! 확실히 내 심장이 이런 심장이면 내 불꽃이 더욱 더 뜨거워지겠군!</text>
+      </say>
+      <say name="캔들">
+        <text>고맙다!
+이로써 난 최강이다 이거야!</text>
+      </say>
+      <say name="캔들" con="" type="give">
+        <text>하하 난 이제 누구에게도 안 진다고!</text>
+        <con>
+          <ele>화염마법사_캔들</ele>
+          <ele>불의_심장</ele>
+          <go>fail</go>
+        </con>
+        <give>불꽃심장_캔들</give>
+      </say>
+    </pub3>
+    <forest1>
+      <say>
+        <text>우거진 정글에 도달했다.
+뭘까? 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다.</text>
+        <give>나무막대</give>
+      </say>
+      <say type="sellect">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="2">나아간다</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>맹수가 가득한 곳에 도달했다.
+뭔가가 이 쪽을 향해 돌진해온다!</text>
+      </say>
+      <say name="멧돼지" type="battle" hp="8" weak="" hard="">
+        <text>꾸에에에에에에에엑!!!</text>
+      </say>
+    </forest1>
+    <forest>
+      <say name="표지판">
+        <text>이 앞은 울창한 숲입니다.
+입장하는 것 만으로도 행동력이 닳습니다.
+행동력이 0이되면 행동력이 필요한 행동을 할 수 없습니다.</text>
+      </say>
+      <say name="표지판" type="sellect">
+        <text>정말 입장하겠습니까?</text>
+        <sellect hp="1">입장한다.</sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+      <say>
+        <text>당신은 울창한 숲 안으로 발을 들였다.</text>
+      </say>
+      <say type="sellect" remember="">
+        <text>양갈래길이 나왔다.
+왼쪽은 우거진 정글 오른쪽은 버려진 탄광이 있다.</text>
+        <sellect go="1" hp="1">왼쪽</sellect>
+        <sellect go="3" hp="5" remove="">숨겨진 길<con><ele>고대_금반지</ele></con></sellect>
+        <sellect go="2" hp="1">오른쪽</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+    </forest>
+    <forest1win>
+      <say name="멧돼지">
+        <text>뀌엑!꾸이에에엑!</text>
+      </say>
+      <say>
+        <text>습격한 멧돼지를 처치했다.
+주위를 둘러보자 뭔가를 발견했다.</text>
+      </say>
+      <say type="give">
+        <text>/ggold을 발견했다!
+냄새난다.</text>
+        <give gold="">100</give>
+      </say>
+      <say type="sellect">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="3">나아간다</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>가시덩굴이 길을 막고있다.</text>
+      </say>
+      <say con="" type="give">
+        <text>가시덩굴을 제거하고 /gname을 얻었다!</text>
+        <con>
+          <ele>낫</ele>
+          <go>fail</go>
+        </con>
+        <give>가시덩굴</give>
+      </say>
+      <say type="sellect">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="4">나아간다</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>더욱더 깊은 정글에 도달했다.
+빛이 들어오지 않아서인지 한기가 서려있다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 이 쪽으로 다가온다!</text>
+      </say>
+      <say name="멧돼지">
+        <text>꾸잉꾸잉!</text>
+      </say>
+      <say name="멧돼지" type="give">
+        <text>묘하게 나를 따르고 있다!</text>
+        <give>애완멧돼지</give>
+      </say>
+      <say>
+        <text>좋은 전력이 될 것이다.</text>
+      </say>
+      <say type="sellect">
+        <text>양갈래 길이 펼쳐져 있다.
+왼쪽은 요정의 숲이 오른쪽엔 황금의 산이 있다.</text>
+        <sellect hp="5">왼쪽</sellect>
+        <sellect hp="5" go="1">오른쪽</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>사방의 은은한 빛이 이리저리 날아다닌다.</text>
+      </say>
+      <say name="요정">
+        <text>삑삑삑!
+(인간이다!
+인간이 이렇게 깊은 숲까지 들어오다니!
+드문일인데...)</text>
+      </say>
+      <say type="give">
+        <text>시끄럽게구는 작은 벌레 같은 것을 잡았다!</text>
+        <give>작은요정</give>
+      </say>
+    </forest1win>
+    <forest1win1>
+      <say>
+        <text>황금의 산 내부에 도달하자 주변이 온통 번쩍거리는 금은보화가 가득하다.</text>
+      </say>
+      <say type="give">
+        <text>/ggold를 얻었다!</text>
+        <give gold="">1000</give>
+      </say>
+    </forest1win1>
+    <forest1winfail>
+      <say>
+        <text>지나갈 수단이 없으니 일단 돌아가자.</text>
+      </say>
+    </forest1winfail>
+    <forest1fail>
+      <say name="멧돼지">
+        <text>(의기양양)꾸워어어어어어억!</text>
+      </say>
+      <say state="fail">
+        <text>멧돼지에게 패해 사망했다.</text>
+      </say>
+    </forest1fail>
+    <forest2>
+      <say>
+        <text>버려진 탄광에 도착했다.</text>
+      </say>
+      <say>
+        <text>앗! 무언가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다.</text>
+        <give>짱돌</give>
+      </say>
+      <say type="sellect">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="2">나아간다</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>광산 내부로 들어섰다.</text>
+      </say>
+      <say type="sellect">
+        <text>눈 앞에 철광석이 있다.
+캐 갈까?</text>
+        <sellect hp="3">캔다(곡괭이 소모)<con><ele>곡괭이</ele></con></sellect>
+        <sellect hp="3" go="1">그냥간다.</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say type="give" con="">
+        <text>/gname을 2개 얻었다.</text>
+        <give>철광석</give>
+        <give>철광석</give>
+        <go>21</go>
+        <con>
+          <ele>곡괭이</ele>
+          <go />
+        </con>
+      </say>
+    </forest2>
+    <forest21>
+      <say>
+        <text>고대사원에 도착했다.</text>
+      </say>
+      <say>
+        <text>뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다.</text>
+        <give>미니토템</give>
+      </say>
+      <say type="sellect" remember="">
+        <text>단단한 문이 앞을 가로막고 있다.</text>
+        <sellect remove="">부순다.</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say name="거대한문" type="battle" hp="100" weak="" hard="">
+        <text>출입금지</text>
+      </say>
+    </forest21>
+    <forest21win>
+      <say name="거대한문">
+        <text>와장창!</text>
+      </say>
+      <say>
+        <text>거대한 문을 부수자 작은 방이 나왔다.</text>
+      </say>
+      <say>
+        <text>뭔가가 있다!</text>
+      </say>
+      <say type="give" remove="">
+        <text>/gname를 발견했다.</text>
+        <give>고대_금반지</give>
+      </say>
+    </forest21win>
+    <forest21fail>
+      <say>
+        <text>거대한 문을 부술 순 없었다.
+돌아가자.</text>
+      </say>
+    </forest21fail>
+    <forest3>
+      <say>
+        <text>고대의 반지를 소지하고 숲에 입장하자.
+반지의 힘에 의해 숨겨졌던 길이 드러났다.
+숨겨졌던 길이 드러났다.</text>
+      </say>
+      <say>
+        <text>길을 걷자 화염에 둘러싸인 신전이 나왔다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give" remove="">
+        <text>/gname를 발견했다.</text>
+        <give>불의_심장</give>
+      </say>
+    </forest3>
+  </day7>
+  <day8>
+    <weapon>
+      <say name="대장장이">
+        <text>오늘은 무기의 공격이 별로 통하지 않는 녀석이라며?</text>
+      </say>
+      <say name="대장장이" type="sellect">
+        <text>하하하! 오늘은 내 무기가 그렇게 쓸모 있을 것 같진 않지만!
+뭐 골라봐!</text>
+        <sellect go="buy">구매</sellect>
+        <sellect go="make">생성</sellect>
+        <sellect go="1" hp="10">아르바이트를 한다.</sellect>
+        <sellect go="end">돌아 간다.</sellect>
+      </say>
+    </weapon>
+    <weapon1>
+      <say name="대장장이" type="give">
+        <text>하하하!! 녀석 열심히 일하는 구나!
+자! 일 한 만큼은 주지!
+/ggold 정도면 불만 없을 거야! 하하하하하!</text>
+        <give gold="">200</give>
+        <go>back</go>
+      </say>
+    </weapon1>
+    <weaponbuy>
+      <say name="대장장이" type="sell">
+        <text>자! 골라봐!</text>
+        <sell cost="200">로즈대거</sell>
+        <sell cost="100">기사검</sell>
+        <sell cost="50">나무스태프</sell>
+        <sell cost="50">낫</sell>
+        <sell cost="50">낫</sell>
+        <sell cost="50">망치</sell>
+        <sell cost="50">망치</sell>
+        <sell cost="50">곡괭이</sell>
+        <sell cost="50">곡괭이</sell>
+      </say>
+    </weaponbuy>
+    <weaponmake>
+      <say name="대장장이" type="make">
+        <text>자 뭘 만들고 싶어?
+물론 재료와 약간의 보수는 네가 준비해 와야 하는 거 알지?</text>
+        <make cost="50" name="흑철검">
+          <con>기사검</con>
+          <con>철광석</con>
+        </make>
+        <make cost="50" name="기사검">
+          <con>철광석</con>
+        </make>
+        <make cost="20" name="나무스태프">
+          <con>나무막대</con>
+        </make>
+      </say>
+    </weaponmake>
+    <weaponbuyChk>
+      <say name="대장장이" type="buy" con="item">
+        <text>/gold골드 확실히 받았어!
+/name은 가져도 좋아!!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+        <go>buy</go>
+      </say>
+    </weaponbuyChk>
+    <weaponbuyChkfail>
+      <say name="대장장이">
+        <text>어이! 돈이 부족하잖아!</text>
+        <go>buy</go>
+      </say>
+    </weaponbuyChkfail>
+    <weaponmakeChk>
+      <say name="대장장이" type="buy" con="item">
+        <text>자! /name이 완성됐다구!
+가져가!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+        <go>make</go>
+      </say>
+    </weaponmakeChk>
+    <weaponmakeChkfail>
+      <say name="대장장이">
+        <text>어이! 재료가 부족하잖아!
+장난하자는 거야?</text>
+        <go>make</go>
+      </say>
+    </weaponmakeChkfail>
+    <training>
+      <say name="헬스트레이너">
+        <text>헥헥-!
+너도 운동하러 왔니?
+후욱-! 후욱-!</text>
+      </say>
+      <say name="헬스트레이너" type="sellect">
+        <text>그래... 헥!헥!
+운동 좋지... 콜록! 콜록!</text>
+        <sellect go="yes" hp="1">운동을 한다</sellect>
+        <sellect>그냥 간다</sellect>
+      </say>
+    </training>
+    <trainingyes>
+      <say name="헬스트레이너">
+        <text>그래! 헉헉! 너도 이리로 와!
+함께 운동하자구!</text>
+      </say>
+      <say type="give">
+        <text>공격력이 /gpow 상승했다.</text>
+        <give pow="">1</give>
+      </say>
+      <say name="헬스트레이너">
+        <text>후욱후욱! 어때?
+강해진 듯한 느낌이 드니?</text>
+        <go>back</go>
+      </say>
+    </trainingyes>
+    <tower>
+      <say>
+        <text>음산한 기운이 흐르는 거대한 탑이 우뚝 솟아있다.</text>
+      </say>
+      <say type="sellect">
+        <text>마왕의 탑에 도전할까?
+실패시 처음부터 다시 해야한다.</text>
+        <sellect go="yes">도전한다.</sellect>
+        <sellect>좀 더 준비를 하고 도전하자!</sellect>
+      </say>
+    </tower>
+    <toweryes>
+      <say ad="">
+        <text>타워에 입장하자 강렬한 파도가 덮쳐온다!</text>
+      </say>
+      <say name="마인-운디네" type="battle" hp="500" weak="풀" hard="">
+        <text>당신은 거품으로 변해 사라질 그런 비극적인 운명을 타고났군요 후훗.</text>
+      </say>
+    </toweryes>
+    <toweryesfail>
+      <say name="마인-운디네" state="fail">
+        <text>후후 터져죽으세요. 거품처럼.</text>
+      </say>
+    </toweryesfail>
+    <toweryeswin>
+      <say name="마인-운디네">
+        <text>어라...? 어떻게 숲의 힘을?
+분명히 봉인을 걸어 놨을 텐데...!!!!</text>
+      </say>
+      <say name="마인-운디네">
+        <text>거품으로 변해 사라질 운명은 나?
+히이이이이이익!!!</text>
+      </say>
+      <say type="give">
+        <text>사라져가는 운디네에게서 빛나는 뭔가가 떨어졌다!</text>
+        <give>황금미나리</give>
+      </say>
+      <say name="실비아">
+        <text>이, 이건!
+이게바로 황금미나리야!
+드디어 찾았다!</text>
+      </say>
+      <say name="실비아">
+        <text>이제 모두를 구할 수 있어!
+네 덕이야!</text>
+      </say>
+      <say name="실비아">
+        <text>아쉽지만 황금미나리를 얻었으니 이만 돌아가야 겠어.
+지금 이 시간에도 수많은 동족들이 고통받고 있으니까.</text>
+      </say>
+      <say name="실비아">
+        <text>잠시간의 이별이야.
+하지만 꼭 다시 만날 거야.</text>
+      </say>
+      <say name="실비아" con="give">
+        <text>그럼 이만.</text>
+        <con>
+          <ele>황금미나리</ele>
+          <go />
+        </con>
+      </say>
+      <say state="win">
+        <text>실비아가 마을을 떠났다.</text>
+      </say>
+    </toweryeswin>
+    <실비아>
+      <say name="실비아">
+        <text>오늘도 좋은 아침이야!</text>
+      </say>
+      <say name="실비아" type="sellect" remember="">
+        <text>어때! 오늘도 힘내서 함께 마물을 물리쳐보자!
+황금미나리를 찾는 것도 잊지마!</text>
+        <sellect remove="">함께가자!</sellect>
+        <sellect go="1">숲의정수를 준다.<con><ele>엘프_실비아</ele><ele>숲의정수</ele></con></sellect>
+        <sellect go="end">그냥 간다.</sellect>
+      </say>
+      <say name="실비아">
+        <text>히히! 역시 내 도움이 필요하지?</text>
+      </say>
+      <say name="실비아" remove="" type="give">
+        <text>좋아! 가자!</text>
+        <go>back</go>
+        <give>엘프_실비아</give>
+      </say>
+    </실비아>
+    <실비아1>
+      <say name="실비아" con="">
+        <text>응 이게 뭐야? 뭔가 엄청난 힘이 느껴지는 데?
+나 주는 거야?</text>
+        <con>
+          <ele>숲의정수</ele>
+          <go />
+        </con>
+      </say>
+      <say name="실비아">
+        <text>앗! 이 것이 대정령의 힘인 거야?
+차원이 다르게 강해진 것이 느껴져...</text>
+      </say>
+      <say name="실비아" type="give" con="">
+        <text>거대한 숲의 힘이라...
+고마워 이제서야 나도 1인분을 할 수 있겠는 걸!</text>
+        <con>
+          <ele>엘프_실비아</ele>
+          <go />
+        </con>
+        <give>숲의사자_실비아</give>
+      </say>
+    </실비아1>
+    <library>
+      <say name="현자">
+        <text>호호호! 어제는 화룡이 깨어나서 마인을 멸했다지?</text>
+      </say>
+      <say name="현자" type="sellect">
+        <text>그래... 오늘은 무엇이 궁금한가?</text>
+        <sellect>오늘의 마물</sellect>
+        <sellect go="end">실례했습니다.</sellect>
+      </say>
+      <say name="현자">
+        <text>호호호! 오늘의 마인은
+&lt;color=#ff0000&gt;마인-운디네&lt;/color&gt;네.</text>
+      </say>
+      <say name="현자">
+        <text>몸이 물로 되어있는 녀석이지.
+물 그 자체이기 때문에 물을 자유자재로 조종할 수 있네.</text>
+      </say>
+      <say name="현자">
+        <text>물로 된 녀석이라 물리적인 타격은 전혀 데미지를 주지 못 할 걸세.
+데미지를 주려면 마법계 공격을 사용하는 수 밖에 없지.
+특히 풀속성의 공격이 효과적일 걸세.</text>
+      </say>
+      <say name="현자">
+        <text>이번에도 상성으로 승부를 볼 수 밖에 없겠구만!
+호호호!</text>
+        <go>back</go>
+      </say>
+    </library>
+    <pub>
+      <say name="마담" type="sellect" remember="">
+        <text>저번엔 고마웠어.
+이제 술이 모자라서 부탁할 일은 없을 거야.
+창고 가득 채워놨으니 말야 후후후.</text>
+        <sellect>새로운 소식</sellect>
+        <sellect go="end">그냥 간다</sellect>
+      </say>
+      <say name="마담">
+        <text>너도 저 뒤 쪽의 숲에 가 봤다면 알고있겠지?
+숲의 구조가 미묘하게 변하고 있다는 것.
+시간이 지남에 따라 미묘하게 변하고 있어 저 숲.</text>
+      </say>
+      <say name="마담">
+        <text>문제는 지금까지는 그 변형의 정도가 작아서 신경 쓸 정도가 아니었지만...
+갑자기 그 숲이 급격히 변화해버렸어.</text>
+      </say>
+      <say name="마담">
+        <text>지금에 와서는 미로처럼 변해버렸지.
+무엇이 숲을 저렇게 변화시켰을까?</text>
+      </say>
+      <say name="마담">
+        <text>숲에 있는 뭔가가 그렇게 만든 것일까나?</text>
+        <go>back</go>
+      </say>
+    </pub>
+    <forest>
+      <say name="표지판">
+        <text>이 앞은 울창한 숲입니다.
+입장하는 것 만으로도 행동력이 닳습니다.
+행동력이 0이되면 행동력이 필요한 행동을 할 수 없습니다.</text>
+      </say>
+      <say name="표지판" type="sellect">
+        <text>정말 입장하겠습니까?</text>
+        <sellect hp="1">입장한다.</sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+      <say>
+        <text>당신은 울창한 숲 안으로 발을 들였다.</text>
+      </say>
+      <say type="sellect" remember="">
+        <text>네갈래 길이 나왔다.</text>
+        <sellect go="1" hp="1">첫번째 길</sellect>
+        <sellect go="2" hp="1">두번째 길</sellect>
+        <sellect go="3" hp="1">세번째 길</sellect>
+        <sellect go="5" hp="1">네번째 길</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+    </forest>
+    <forest1>
+      <say>
+        <text>깊은 숲에 도달했다.</text>
+      </say>
+      <say type="sellect">
+        <text>양갈래 길이 있다.</text>
+        <sellect hp="2">왼쪽으로</sellect>
+        <sellect hp="2" go="1">오른쪽으로</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>기괴한 숲에 도착했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say name="웨어울프" type="battle" hp="10" weak="빛" hard="">
+        <text>끄으으 용서못한다!</text>
+      </say>
+    </forest1>
+    <forest1win>
+      <say>
+        <text>웨어울프를 처치했다.</text>
+      </say>
+      <say>
+        <text>뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!</text>
+        <give>뗄감</give>
+      </say>
+      <say type="sellect" remember="">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="3" remove="">나아간다.</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>기괴한 저택에 도달했다.</text>
+      </say>
+      <say>
+        <text>뭔가가 있다!</text>
+      </say>
+      <say type="give" remove="">
+        <text>/gname을 발견했다!</text>
+        <give>미니토템</give>
+      </say>
+      <say type="sellect">
+        <text>양갈래 길이 있다.</text>
+        <sellect hp="4">왼쪽으로</sellect>
+        <sellect hp="4" go="1">오른쪽으로</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>대저택 서재에 도착했다.</text>
+      </say>
+      <say>
+        <text>아무것도 찾을 수 없다.
+돌아가자.</text>
+        <go>back</go>
+      </say>
+    </forest1win>
+    <forest1win1>
+      <say>
+        <text>대저택 식당에 도착했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!</text>
+        <give>고기</give>
+      </say>
+    </forest1win1>
+    <forest1fail>
+      <say state="fail">
+        <text>웨어울프에게 당해 죽었다.</text>
+      </say>
+    </forest1fail>
+    <forest11>
+      <say>
+        <text>끈적한 늪에 도착했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say name="슬라임" type="battle" hp="30" weak="불" hard="타격">
+        <text>꿀렁꿀렁</text>
+      </say>
+    </forest11>
+    <forest11fail>
+      <say state="fail">
+        <text>슬라임에게 당해 죽었다.</text>
+      </say>
+    </forest11fail>
+    <forest11win>
+      <say>
+        <text>슬라임을 처치했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!</text>
+        <give>물컹물컹한_액체</give>
+      </say>
+      <say type="sellect">
+        <text>양갈래 길이 있다.</text>
+        <sellect hp="3">왼쪽으로</sellect>
+        <sellect hp="3" go="1">오른쪽으로</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>물컹물컹한 액체가 거대한 강을 이루고 있는 곳에 도달했다.</text>
+      </say>
+      <say>
+        <text>액체를 조금 퍼가자.</text>
+      </say>
+      <say type="give">
+        <text>/gname을 얻었다!</text>
+        <give>물컹물컹한_액체</give>
+      </say>
+    </forest11win>
+    <forest11win1>
+      <say>
+        <text>끈적한 지역을 벗어났다.</text>
+      </say>
+      <say>
+        <text>잠깐 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 얻었다!</text>
+        <give>짱돌</give>
+      </say>
+    </forest11win1>
+    <forest2>
+      <say>
+        <text>은빛 호수에 도달했다.</text>
+      </say>
+      <say type="sellect">
+        <text>세갈래 길이 있다.</text>
+        <sellect hp="2" go="1">왼쪽으로</sellect>
+        <sellect hp="2" go="2">가운데로</sellect>
+        <sellect hp="2" go="3">오른쪽으로</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+    </forest2>
+    <forest21>
+      <say>
+        <text>은나무 숲에 도달했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!</text>
+        <give>나무막대</give>
+      </say>
+      <say type="sellect">
+        <text>양갈래 길이 있다.</text>
+        <sellect hp="3">왼쪽으로</sellect>
+        <sellect hp="3" go="1">오른쪽으로</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>은나무 숲의 깊은 곳에 도달했다.</text>
+      </say>
+      <say>
+        <text>더 이상 나아갈 길이 없다.
+돌아가자</text>
+      </say>
+    </forest21>
+    <forest211>
+      <say>
+        <text>은나무 숲의 깊은 곳에 도달했다.</text>
+      </say>
+      <say>
+        <text>더 이상 나아갈 길이 없다.
+돌아가자</text>
+      </say>
+    </forest211>
+    <forest22>
+      <say>
+        <text>은빛 갈대 들판에 도달했다.</text>
+      </say>
+      <say type="sellect">
+        <text>양갈래 길이 있다.</text>
+        <sellect hp="3">왼쪽으로</sellect>
+        <sellect hp="3" go="1">오른쪽으로</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>들판 한 가운데에 있는 어느 움막에 도달했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!
+이 움막의 지인은 마법사인가 보다.</text>
+        <give>나무스태프</give>
+      </say>
+      <say>
+        <text>도둑질이 들키기 전에 도망가자.</text>
+      </say>
+    </forest22>
+    <forest221>
+      <say>
+        <text>들판을 걷다 뭔가를 발견했다!</text>
+      </say>
+      <say name="멧돼지">
+        <text>꾸잉꾸잉!</text>
+      </say>
+      <say>
+        <text>묘하게 우호적인 멧돼지다!</text>
+      </say>
+      <say type="give">
+        <text>/gname를 조련했다!</text>
+        <give>애완멧돼지</give>
+      </say>
+      <say>
+        <text>더 이상 나아갈 길이 없다.
+돌아가자.</text>
+      </say>
+    </forest221>
+    <forest23>
+      <say>
+        <text>은빛 사원에 도착했다.</text>
+      </say>
+      <say type="sellect" remember="">
+        <text>양갈래 길이 있다.</text>
+        <sellect hp="3" remove="">왼쪽으로</sellect>
+        <sellect hp="3" go="1">오른쪽으로</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>보물고를 찾았다!</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give" remove="">
+        <text>/gname을 발견했다!
+이 움막의 지인은 마법사인가 보다.</text>
+        <give>미니토템</give>
+      </say>
+      <say>
+        <text>더 이상 나아갈 길이 없다.
+돌아가자.</text>
+      </say>
+    </forest23>
+    <forest231>
+      <say>
+        <text>침실을 발견했다!</text>
+      </say>
+      <say>
+        <text>괜히 이불 냄새를 한 번 맡아 보았다.</text>
+      </say>
+      <say>
+        <text>곰팡이 냄새가 코를 찌른다!</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!
+이 움막의 지인은 마법사인가 보다.</text>
+        <give>냄새나는_고서</give>
+      </say>
+      <say>
+        <text>이 곳에서 지내는 사람은 노인일 것이다.</text>
+      </say>
+      <say>
+        <text>더 이상 나아갈 길이 없다.
+돌아가자.</text>
+      </say>
+    </forest231>
+    <forest3>
+      <say>
+        <text>기괴한 마법진이 그려진 곳에 도달했다.
+마법진의 모서리의 사방에 네개의 원이 그려져 있다.</text>
+      </say>
+      <say con="">
+        <text>미니토템 네 개를 각각의 원에 올려놓았다.</text>
+        <con>
+          <ele>미니토템</ele>
+          <ele>미니토템</ele>
+          <ele>미니토템</ele>
+          <ele>미니토템</ele>
+          <go>-</go>
+        </con>
+      </say>
+      <say>
+        <text>땅 전체가 흔들린다!!!
+숲이 변화하고 있다!</text>
+      </say>
+      <say phase="a1">
+        <text>격렬한 숲의 움직임에 입구로 쫓겨났다.
+숲에 뭔가의 변화가 일어난 것 같다.</text>
+      </say>
+    </forest3>
+    <forest3->
+      <say type="sellect">
+        <text>두갈래 길이 있다.</text>
+        <sellect hp="2" go="1">왼쪽으로</sellect>
+        <sellect hp="2" go="2">오른쪽으로</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+    </forest3->
+    <forest3-1>
+      <say>
+        <text>우거진 정글에 도달했다.</text>
+      </say>
+      <say>
+        <text>가시덩굴이 길을 막고있다.</text>
+      </say>
+      <say con="">
+        <text>길을 막고있던 가시 덩굴을 낫으로 잘라냈다.</text>
+        <con>
+          <ele>낫</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <say type="sellect">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="3">나아간다.</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>거대한 바위가 길을 막고있다.</text>
+      </say>
+      <say con="">
+        <text>길을 막고있던 바위를 망치로 부쉈다.</text>
+        <con>
+          <ele>망치</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <say type="sellect">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="4">나아간다.</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say type="sellect" remember="">
+        <text>투명한 암석에 속에 뭔가가 있다!</text>
+        <sellect hp="5" remove="">캐낸다.(곡괭이필요)<con><ele>곡괭이</ele></con></sellect>
+        <sellect hp="5" go="1">그냥 간다.</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say con="" type="give" remove="">
+        <text>/gname을 캐내었다.</text>
+        <con>
+          <ele>곡괭이</ele>
+          <go>fail</go>
+        </con>
+        <give>미니토템</give>
+        <go>3-11</go>
+      </say>
+    </forest3-1>
+    <forest3-1fail>
+      <say>
+        <text>지나갈 방법이 없다.
+돌아가자..</text>
+      </say>
+    </forest3-1fail>
+    <forest3-11>
+      <say>
+        <text>막다른 길에 도달했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!</text>
+        <give>흑철검</give>
+      </say>
+    </forest3-11>
+    <forest3-2>
+      <say>
+        <text>기괴한 정글에 도달했다.</text>
+      </say>
+      <say>
+        <text>가시덩굴이 길을 막고있다.</text>
+      </say>
+      <say con="">
+        <text>길을 막고있던 가시 덩굴을 낫으로 잘라냈다.</text>
+        <con>
+          <ele>낫</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <say type="sellect">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="3">나아간다.</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>거대한 바위가 길을 막고있다.</text>
+      </say>
+      <say con="">
+        <text>길을 막고있던 바위를 망치로 부쉈다.</text>
+        <con>
+          <ele>망치</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <say type="sellect">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="4">나아간다.</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say type="sellect">
+        <text>투명한 암석에 속에 좋은 향기가 나는 뭔가가 있다!</text>
+        <sellect hp="5">캐낸다.(곡괭이필요)<con><ele>곡괭이</ele></con></sellect>
+        <sellect hp="5" go="1">그냥 간다.</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say con="" type="give">
+        <text>/gname을 캐내었다.</text>
+        <con>
+          <ele>곡괭이</ele>
+          <go>fail</go>
+        </con>
+        <give>퍼퓸소드</give>
+        <go>3-21</go>
+      </say>
+    </forest3-2>
+    <forest3-21>
+      <say>
+        <text>막다른 길에 도달했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname를 발견했다!</text>
+        <give>로즈대거</give>
+      </say>
+    </forest3-21>
+    <forest5>
+      <say>
+        <text>버려진 탄광에 도착했다.</text>
+      </say>
+      <say type="sellect">
+        <text>양갈래 길이 있다.</text>
+        <sellect hp="2">왼쪽으로</sellect>
+        <sellect hp="2" go="1">오른쪽으로</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>태양이 뜨는 언덕에 도착했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!</text>
+        <give>태양석</give>
+      </say>
+      <say type="sellect">
+        <text>양갈래 길이 있다.</text>
+        <sellect hp="3">왼쪽으로</sellect>
+        <sellect hp="3" go="-1">오른쪽으로</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>햇볕초원에 도달했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/ggold 를 발견했다!</text>
+        <give gold="">200</give>
+      </say>
+      <say>
+        <text>더이상 길이 없다. 돌아가자.</text>
+      </say>
+    </forest5>
+    <forest5-1>
+      <say>
+        <text>전사의 무덤에 도달했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!</text>
+        <give>기사검</give>
+      </say>
+      <say type="sellect">
+        <text>나아갈 수 있는 길이 있다.</text>
+        <sellect hp="4">나아간다.</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>해골더미에 도달했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!</text>
+        <give>로즈대거</give>
+      </say>
+      <say>
+        <text>더이상 길이 없다. 돌아가자.</text>
+      </say>
+    </forest5-1>
+    <forest51>
+      <say>
+        <text>탄광 내부에 도착했다.</text>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give">
+        <text>/gname을 발견했다!</text>
+        <give>짱돌</give>
+      </say>
+      <say type="sellect">
+        <text>양갈래 길이 있다.</text>
+        <sellect hp="3">왼쪽으로</sellect>
+        <sellect hp="3" go="-1">오른쪽으로</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>거대인조동굴에 도달했다.</text>
+      </say>
+      <say type="sellect" remember="">
+        <text>양갈래 길이 있다.</text>
+        <sellect hp="4" go="1">왼쪽으로</sellect>
+        <sellect hp="4" remove="">오른쪽으로</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>고대 유적지에 도달했다.</text>
+      </say>
+      <say>
+        <text>거대한 바위가 가로막고 있다.</text>
+      </say>
+      <say con="" type="give">
+        <text>망치로 바위를 부수자 길이 열렸다.
+바위파편으로 /gname을 얻었다.</text>
+        <con>
+          <ele>망치</ele>
+          <go>fail</go>
+        </con>
+        <give>짱돌</give>
+      </say>
+      <say>
+        <text>잠깐! 뭔가가 있다!</text>
+      </say>
+      <say type="give" remove="">
+        <text>/gname을 발견했다!</text>
+        <give>미니토템</give>
+      </say>
+    </forest51>
+    <forest51fail>
+      <say>
+        <text>어쩔 수 없지 돌아가자.</text>
+      </say>
+    </forest51fail>
+    <forest511>
+      <say>
+        <text>막다른 길에 도달했다.</text>
+      </say>
+      <say>
+        <text>길이 없으니 돌아가자.</text>
+        <go>back</go>
+      </say>
+    </forest511>
+    <forest51-1>
+      <say>
+        <text>철광산에 도달했다.</text>
+      </say>
+      <say type="sellect">
+        <text>철광석을 캘까?
+(곡괭이 필요)</text>
+        <sellect hp="4">캔다</sellect>
+        <sellect hp="4" go="1">그냥 간다.</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say con="" type="give">
+        <text>곡괭이로 /gname을 두 개 캐냈다.</text>
+        <con>
+          <ele>곡괭이</ele>
+          <go>fail</go>
+        </con>
+        <give>철광석</give>
+        <give>철광석</give>
+        <go>51-11</go>
+      </say>
+    </forest51-1>
+    <forest51-11>
+      <say type="sellect">
+        <text>양갈래 길이 있다.</text>
+        <sellect hp="5" go="1">왼쪽으로</sellect>
+        <sellect hp="5">오른쪽으로</sellect>
+        <sellect go="end">무섭다. 돌아가자.</sellect>
+      </say>
+      <say>
+        <text>금광산에 도달했다.</text>
+      </say>
+      <say type="sellect">
+        <text>더 이상 나아갈 길이 없다.
+금광석을 캘까?
+(곡괭이 필요)</text>
+        <sellect hp="5">캔다</sellect>
+        <sellect go="end">그냥 돌아가자.</sellect>
+      </say>
+      <say con="" type="give">
+        <text>곡괭이로 금을 캐내어
+/ggold 를 얻었다.</text>
+        <con>
+          <ele>곡괭이</ele>
+          <go>fail</go>
+        </con>
+        <give gold="">500</give>
+      </say>
+    </forest51-11>
+    <forest51-111>
+      <say>
+        <text>철광산에 도달했다.</text>
+      </say>
+      <say type="sellect">
+        <text>더 이상 나아갈 길이 없다.
+철광석을 캘까?
+(곡괭이 필요)</text>
+        <sellect hp="5">캔다</sellect>
+        <sellect go="end">그냥 돌아가자.</sellect>
+      </say>
+      <say con="" type="give">
+        <text>곡괭이로 철광석을 캐내어
+/gname을 세개 얻었다.</text>
+        <con>
+          <ele>곡괭이</ele>
+          <go>fail</go>
+        </con>
+        <give>철광석</give>
+        <give>철광석</give>
+        <give>철광석</give>
+      </say>
+    </forest51-111>
+    <a1forest>
+      <say name="표지판">
+        <text>이 앞은 울창한 숲입니다.
+입장하는 것 만으로도 행동력이 닳습니다.
+행동력이 0이되면 행동력이 필요한 행동을 할 수 없습니다.</text>
+      </say>
+      <say name="표지판" type="sellect">
+        <text>정말 입장하겠습니까?</text>
+        <sellect hp="1">입장한다.</sellect>
+        <sellect>돌아간다.</sellect>
+      </say>
+      <say>
+        <text>숲에 발을 들였다.
+하지만 방금 전 까지의 미로같던 숲은 온데간데 없고.
+일직선으로 펼쳐진 길만이 펼쳐져 있다.</text>
+      </say>
+      <say>
+        <text>당신의 발걸음에 맞춰 숲의 속삭임이 들려온다.</text>
+      </say>
+      <say>
+        <text>뭔가가 있다.</text>
+      </say>
+      <say name="숲의 대정령">
+        <text>그대 덕에 숲이 제 모습을 다시 찾을 수 있었다.
+감사하지.</text>
+      </say>
+      <say name="숲의 대정령">
+        <text>그대에게 이 숲의 힘을 빌려주지.</text>
+      </say>
+      <say name="숲의 대정령" type="give">
+        <text>이 숲의 모든 정령이 그 /gname를 통해 자네에게 전해질 것이다.</text>
+        <give>숲의정수</give>
+      </say>
+      <say name="숲의 대정령">
+        <text>명심하라.
+숲은 그대의 편이다.</text>
+      </say>
+      <say phase="a2">
+        <text>숲의 밖으로 내보내졌다.</text>
+      </say>
+    </a1forest>
+    <a2forest>
+      <say>
+        <text>평온하고 안전한 숲이 펼쳐져 있다.
+더 이상의 모험은 의미가 없어 보이는 듯 하다.</text>
+      </say>
+    </a2forest>
+    <area>
+      <say>
+        <text>지금은 마을 밖엔 볼일이 없다.</text>
+      </say>
+    </area>
+  </day8>
+  <day9>
+    <library>
+      <say>
+        <text>도서관엔 아무도 없다.</text>
+      </say>
+    </library>
+    <weapon>
+      <say name="대장장이">
+        <text>하하하! 오늘따라 뭔가 더 으스스 한 걸?</text>
+      </say>
+      <say name="대장장이" type="sellect">
+        <text>이럴 때 일수록 더 강력한 무기가 있어야 든든하지!</text>
+        <sellect go="buy">구매</sellect>
+        <sellect go="make">생성</sellect>
+        <sellect go="1" hp="10">아르바이트를 한다.</sellect>
+        <sellect go="end">돌아 간다.</sellect>
+      </say>
+    </weapon>
+    <weapon1>
+      <say name="대장장이" type="give">
+        <text>하하하!! 녀석 열심히 일하는 구나!
+자! 일 한 만큼은 주지!
+/ggold 정도면 불만 없을 거야! 하하하하하!</text>
+        <give gold="">200</give>
+        <go>back</go>
+      </say>
+    </weapon1>
+    <training>
+      <say name="헬스트레이너">
+        <text>헥헥-!
+너도 운동하러 왔니?
+후욱-! 후욱-!</text>
+      </say>
+      <say name="헬스트레이너" type="sellect">
+        <text>그래... 헥!헥!
+운동 좋지... 콜록! 콜록!</text>
+        <sellect go="yes" hp="1">운동을 한다</sellect>
+        <sellect>그냥 간다</sellect>
+      </say>
+    </training>
+    <trainingyes>
+      <say name="헬스트레이너">
+        <text>그래! 헉헉! 너도 이리로 와!
+함께 운동하자구!</text>
+      </say>
+      <say type="give">
+        <text>공격력이 /gpow 상승했다.</text>
+        <give pow="">1</give>
+      </say>
+      <say name="헬스트레이너">
+        <text>후욱후욱! 어때?
+강해진 듯한 느낌이 드니?</text>
+        <go>back</go>
+      </say>
+    </trainingyes>
+    <pubfail>
+      <say name="마담" type="sellect" remember="">
+        <text>오늘따라 손님이 적은걸...</text>
+        <sellect>새로운 소식</sellect>
+        <sellect go="end">그냥 간다</sellect>
+      </say>
+      <say name="마담">
+        <text>새로운 소식이랄까...
+오늘따라 마을이 썰렁하지 않아?</text>
+      </say>
+      <say name="마담">
+        <text>도서관의 영감도 사라졌고, 그 엘프도 사라졌고...
+매일 여기서 술을 퍼마시던 멍청이들도 오늘은 코빼기도 안보이고 말야.</text>
+      </say>
+      <say name="마담">
+        <text>뭔가 느낌이 좋지 않아.</text>
+        <go>back</go>
+      </say>
+    </pubfail>
+    <pub>
+      <say name="마담" con="">
+        <text>어머, 너네들 역시 왔구나?</text>
+        <con>
+          <ele stay="">검투사_로이드</ele>
+          <ele stay="">현자_잔느</ele>
+          <ele stay="">화룡_캔들</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <say name="로이드">
+        <text>결전의 전엔 언제나 술이지!</text>
+      </say>
+      <say name="캔들">
+        <text>하하! 너 뭘 좀 아는구나!
+그리고 돈이지!</text>
+      </say>
+      <say name="잔느">
+        <text>이 곳의 편안한 분위기가 격렬한 전투에서의 긴장감을 해소시켜 주는 거라 생각합니다.</text>
+      </say>
+      <say name="로이드">
+        <text>에이! 언니! 그런게 어딨어!
+그저 술을 마시고 싶을 뿐이야!</text>
+      </say>
+      <say name="캔들">
+        <text>하하! 그렇지!
+그리고 돈이지!</text>
+      </say>
+      <say name="잔느">
+        <text>천박하군요.
+용사님은 왜 저런...
+후... 아닙니다.</text>
+      </say>
+      <say name="로이드">
+        <text>언니! 잔소리 하지 말고 술 잔을 들라구!</text>
+      </say>
+      <say name="잔느">
+        <text>저는 술은 입에 대지 않습니다.
+사양하겠습니다.</text>
+      </say>
+      <say name="캔들">
+        <text>거 딱딱하구만!</text>
+      </say>
+      <say>
+        <text>시끌벅적한 파티의 시간이 막바지에에 다달았다.</text>
+      </say>
+      <say name="캔들">
+        <text>어이, 여자!</text>
+      </say>
+      <say name="잔느">
+        <text>잔느라고 합니다.
+다음부턴 이름으로 불러주십시오.</text>
+      </say>
+      <say name="캔들">
+        <text>그래, 우리 마지막으로 화려하게 쇼나 해보자구!
+넌 얼음을 쓴다고 했지?
+난 불을 사용한다구!</text>
+      </say>
+      <say name="캔들">
+        <text>우리의 마법을 합쳐 엄청난 수증기 폭발을 일으켜보는게 어때?
+재밌지 않아?</text>
+      </say>
+      <say name="잔느" type="sellect">
+        <text>흠 글쎄요...
+용자님 생각은 어떤가요?</text>
+        <sellect>재밌을 것 같다. 해보자!</sellect>
+        <sellect go="1">전투를 위해 힘을 아껴야지 무슨 소리냐.</sellect>
+      </say>
+      <say name="잔느">
+        <text>용자님이 그렇게 말씀 하신다면!
+좋습니다 해보죠.</text>
+      </say>
+      <say>
+        <text>둘의 기합과 함께 엄청난 양의 연기가 하늘을 향해 솟구쳤다.</text>
+      </say>
+      <say name="캔들">
+        <text>하하! 잔느! 너 꽤 하잖아!</text>
+      </say>
+      <say name="잔느" type="give">
+        <text>당신의 실력도 그럭저럭 괜찮군요.
+용자님의 발을 잡지는 않겠습니다.</text>
+        <give>추억</give>
+      </say>
+      <say name="로이드">
+        <text>쿨-</text>
+      </say>
+      <say name="캔들">
+        <text>어이! 일어나!
+이제 일하러 가야지!</text>
+      </say>
+      <say name="로이드" phase="a1">
+        <text>음..!</text>
+      </say>
+    </pub>
+    <pub1>
+      <say name="잔느">
+        <text>확실히 그렇군요.
+자 다들 이제 탑으로 갑시다.</text>
+      </say>
+      <say name="로이드">
+        <text>에이-!
+알았어.</text>
+      </say>
+      <say name="캔들" phase="a1">
+        <text>쳇!</text>
+      </say>
+    </pub1>
+    <a1pub>
+      <say>
+        <text>아직 파티의 흔적이 남아있다.
+다시 한 번 이 곳에 올 수 있기를.</text>
+      </say>
+    </a1pub>
+    <weaponbuy>
+      <say name="대장장이" type="sell">
+        <text>자! 골라봐!</text>
+        <sell cost="200">로즈대거</sell>
+        <sell cost="100">기사검</sell>
+        <sell cost="50">나무스태프</sell>
+        <sell cost="50">낫</sell>
+        <sell cost="50">낫</sell>
+        <sell cost="50">망치</sell>
+        <sell cost="50">망치</sell>
+        <sell cost="50">곡괭이</sell>
+        <sell cost="50">곡괭이</sell>
+      </say>
+    </weaponbuy>
+    <weaponmake>
+      <say name="대장장이" type="make">
+        <text>자 뭘 만들고 싶어?
+물론 재료와 약간의 보수는 네가 준비해 와야 하는 거 알지?</text>
+        <make cost="50" name="흑철검">
+          <con>기사검</con>
+          <con>철광석</con>
+        </make>
+        <make cost="50" name="기사검">
+          <con>철광석</con>
+        </make>
+        <make cost="20" name="나무스태프">
+          <con>나무막대</con>
+        </make>
+      </say>
+    </weaponmake>
+    <weaponbuyChk>
+      <say name="대장장이" type="buy" con="item">
+        <text>/gold골드 확실히 받았어!
+/name은 가져도 좋아!!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+        <go>buy</go>
+      </say>
+    </weaponbuyChk>
+    <weaponbuyChkfail>
+      <say name="대장장이">
+        <text>어이! 돈이 부족하잖아!</text>
+        <go>buy</go>
+      </say>
+    </weaponbuyChkfail>
+    <weaponmakeChk>
+      <say name="대장장이" type="buy" con="item">
+        <text>자! /name이 완성됐다구!
+가져가!</text>
+        <con>
+          <ele>gold</ele>
+          <go>fail</go>
+        </con>
+        <go>make</go>
+      </say>
+    </weaponmakeChk>
+    <weaponmakeChkfail>
+      <say name="대장장이">
+        <text>어이! 재료가 부족하잖아!
+장난하자는 거야?</text>
+        <go>make</go>
+      </say>
+    </weaponmakeChkfail>
+    <forest>
+      <say>
+        <text>평온하고 안전한 숲이 펼쳐져 있다.
+더 이상의 모험은 의미가 없어 보이는 듯 하다.</text>
+      </say>
+    </forest>
+    <area>
+      <say type="sellect">
+        <text>이 길은 마을 밖으로 이어진다.
+마을 밖으로 나갈까?</text>
+        <sellect hp="1">마을 밖으로</sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+      <say type="sellect" remember="">
+        <text>당신은 마을 밖으로 나섰습니다.
+어느 곳으로 향하겠습니까?</text>
+        <sellect hp="10" go="1">페놀 제국</sellect>
+        <sellect hp="10" go="2">푸른 탑</sellect>
+        <sellect hp="10" go="3">토르카 분화구</sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+    </area>
+    <area1>
+      <say type="sellect" remember="">
+        <text>페놀 제국에 도착했다.</text>
+        <sellect remove="">성 경비병과 대화</sellect>
+        <sellect go="2" remove="">황제와 대화<con><ele>성_통행증</ele></con></sellect>
+        <sellect go="1" remove="">로이드와 대화</sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+      <say name="페놀 경비병">
+        <text>이 앞은 허가된 분이 아니면 출입 금지입니다.</text>
+      </say>
+      <say name="로이드" con="">
+        <text>뭐야 딱딱한 소리 하지마.
+나 누군지 몰라?</text>
+        <con>
+          <ele stay="">검투사_로이드</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <say name="페놀 경비병">
+        <text>앗! 로이드님 아니십니까?!
+언제 돌아오셨습니까?</text>
+      </say>
+      <say name="로이드">
+        <text>얼마 전에 왔어.
+그러니 들여보내줘.</text>
+      </say>
+      <say name="페놀 경비병" remove="">
+        <text>넵!
+여기 통행증입니다.
+동행분에게 주시면 됩니다.</text>
+      </say>
+      <say name="로이드" type="give">
+        <text>자, 받아둬.
+이게 있어야 들어갈 수 있으니까.</text>
+        <give>성_통행증</give>
+        <go>1</go>
+      </say>
+    </area1>
+    <area1fail>
+      <say name="페놀 경비병" type="sellect">
+        <text>허가된 분이시라면 그 증거를 보여주시기 바랍니다.</text>
+        <sellect>황제와 만나는 방법</sellect>
+        <sellect go="back">돌아간다.</sellect>
+      </say>
+      <say name="페놀 경비병">
+        <text>왕과 대면할 수 있는 것은 허가된 사람 뿐입니다.</text>
+      </say>
+      <say name="페놀 경비병">
+        <text>물론 작위가 높거나 개인적인 친분이 있는 분이라면 예외로 칩니다.</text>
+        <go>back</go>
+      </say>
+    </area1fail>
+    <area11>
+      <say name="로이드" type="sellect">
+        <text>뭐야 너 여기까지 쫓아온 거야?</text>
+        <sellect>함께 가자.</sellect>
+        <sellect go="back">돌아간다.</sellect>
+      </say>
+      <say name="로이드" remove="">
+        <text>여기까지 따라온 친구를 못 본 채 할 순 없지.</text>
+      </say>
+      <say name="로이드" type="give">
+        <text>좋아 뭘 하려는 지는 모르겠지만.</text>
+        <give>검투사_로이드</give>
+        <go>1</go>
+      </say>
+    </area11>
+    <area12>
+      <say name="황제">
+        <text>이! 방탕한 놈!
+드디어 돌아왔구나!!</text>
+      </say>
+      <say name="황제">
+        <text>흑흑! 너무 외로웠다구!</text>
+      </say>
+      <say name="로이드">
+        <text>뚝 그쳐 임마.
+할 얘기가 있으니까.</text>
+      </say>
+      <say name="황제" type="sellect" remember="">
+        <text>흑흑... 응..!</text>
+        <sellect remove="">군사를 내달라.</sellect>
+        <sellect go="1" osc="">돌아간다.</sellect>
+      </say>
+      <say name="로이드">
+        <text>미안하지만 군사가 좀 필요해.
+군인들은 꼭 살려서 돌려보내 줄테니 좀 내줘.</text>
+      </say>
+      <say name="황제" type="give">
+        <text>알아또!
+최정예 기사 10명 정도면 되니?</text>
+        <give>페놀_정예병사</give>
+        <give>페놀_정예병사</give>
+        <give>페놀_정예병사</give>
+        <give>페놀_정예병사</give>
+        <give>페놀_정예병사</give>
+        <give>페놀_정예병사</give>
+        <give>페놀_정예병사</give>
+        <give>페놀_정예병사</give>
+        <give>페놀_정예병사</give>
+        <give>페놀_정예병사</give>
+      </say>
+      <say name="로이드">
+        <text>고맙다.
+그럼 다음에 보자.</text>
+      </say>
+      <say name="황제">
+        <text>벌써 가버리는 거야?
+힝....</text>
+      </say>
+      <say name="로이드">
+        <text>아...!
+금방 돌아올테니까 다 늙은게 징그럽게 징징 짜지마.</text>
+      </say>
+      <say name="황제" remove="">
+        <text>웅...
+잘가...</text>
+        <go>back</go>
+      </say>
+    </area12>
+    <area2>
+      <say type="sellect" remember="">
+        <text>푸른탑에 도착했다.</text>
+        <sellect remove="">잔느와 대화</sellect>
+        <sellect go="1">대마법사와 대화</sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+      <say name="잔느">
+        <text>앗! 용자님!
+설마 저를 보러 이 먼 곳 까지 오신 건가요?
+감격입니다.</text>
+      </say>
+      <say name="잔느" type="give">
+        <text>혹시 저의 힘이 필요하신 가요?
+그렇다면 주저하지 마시고 절 데려가주세요.</text>
+        <give>현자_잔느</give>
+      </say>
+      <say name="잔느" remove="">
+        <text>용자님을 돕는 순간이 저의 가장 큰 영광의 순간입니다.</text>
+        <go>back</go>
+      </say>
+    </area2>
+    <area21>
+      <say type="sellect" remember="" name="대마법사">
+        <text>자네는 뭔가?</text>
+        <sellect remove="">마법사들을 보내달라.</sellect>
+        <sellect go="1">푸른탑에 대해서</sellect>
+        <sellect go="2" osc="">돌아간다.</sellect>
+      </say>
+      <say name="대마법사">
+        <text>뭣? 우리 탑의 마법사들을 좀 빌려달라고?
+어헛! 우린 마법의 연구만으로도 충분히 바쁘다!</text>
+      </say>
+      <say name="대마법사">
+        <text>헛소리 하지말고 어서 돌아가거라!</text>
+      </say>
+      <say name="잔느" con="">
+        <text>부탁합니다. 위대한 대마법사님.</text>
+        <con>
+          <ele stay="">현자_잔느</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <say name="대마법사">
+        <text>뭣? 위대한?</text>
+      </say>
+      <say name="잔느">
+        <text>그렇습니다 살아있는 전설이신 대마법사님.
+부디 용자님을 도와주세요.</text>
+      </say>
+      <say name="대마법사">
+        <text>저, 전설!!!
+엣헴! 흠, 흠!
+우리 잔느가 그렇게 말하니 거절할 수도 없지!</text>
+      </say>
+      <say name="대마법사">
+        <text>얘들아 잔느를 따라가거라!</text>
+      </say>
+      <say name="마법사들" type="give" remove="">
+        <text>넵!</text>
+        <give>푸른탑의_마법사</give>
+        <give>푸른탑의_마법사</give>
+        <give>푸른탑의_마법사</give>
+        <give>푸른탑의_마법사</give>
+        <give>푸른탑의_마법사</give>
+        <give>푸른탑의_마법사</give>
+        <give>푸른탑의_마법사</give>
+        <give>푸른탑의_마법사</give>
+        <give>푸른탑의_마법사</give>
+        <give>푸른탑의_마법사</give>
+        <go>back</go>
+      </say>
+      <say name="잔느">
+        <text>잘 해결 되어서 다행입니다 용자님.</text>
+      </say>
+    </area21>
+    <area211>
+      <say name="대마법사">
+        <text>이 푸른탑은 전 세계의 이름있는 학자들이 모여서 마법을 연구하는 곳이지.
+여기있는 모든 마법사가 일류 마법사다.</text>
+      </say>
+      <say name="대마법사">
+        <text>그 일류 마법사들 마저도 날 존경해서 난 대마법사라 불리고 있지.
+엣-헴! 좀 더 날 존경해도 좋네.</text>
+        <go>back</go>
+      </say>
+    </area211>
+    <area21fail>
+      <say name="대마법사">
+        <text>훠이! 훠이!</text>
+        <go>back</go>
+      </say>
+    </area21fail>
+    <area3>
+      <say type="sellect" remember="">
+        <text>토르카 분화구에 도착했다.</text>
+        <sellect remove="">마더 드래곤과 대화</sellect>
+        <sellect go="1" remove="">캔들과 대화</sellect>
+        <sellect go="end">돌아간다.</sellect>
+      </say>
+      <say name="마더 드래곤">
+        <text>넌 뭐냐 인간.
+이 곳은 드래곤 이외엔 발을 들일수도 들여서도 안 된다.</text>
+      </say>
+      <say name="마더 드래곤">
+        <text>어서 물러가거라.</text>
+      </say>
+      <say name="새끼용" con="" type="give">
+        <text>뀨잉!뀨잉!</text>
+        <con>
+          <ele stay="">화룡_캔들</ele>
+          <go>fail</go>
+        </con>
+        <give>새끼용</give>
+        <give>새끼용</give>
+        <give>새끼용</give>
+        <give>새끼용</give>
+        <give>새끼용</give>
+        <give>새끼용</give>
+        <give>새끼용</give>
+        <give>새끼용</give>
+        <give>새끼용</give>
+        <give>새끼용</give>
+      </say>
+      <say name="캔들">
+        <text>얘네는 우릴 따라가고 싶다는데?</text>
+      </say>
+      <say name="마더 드래곤">
+        <text>흥! 맘대로 하거라!
+자식 키워봐야 아무 소용 없구나!
+엄마는 안따르고 이상한 놈만 따르니!</text>
+      </say>
+      <say name="캔들">
+        <text>하하.</text>
+      </say>
+      <say name="새끼용">
+        <text>컁컁!</text>
+      </say>
+      <say name="캔들" remove="">
+        <text>휴우;;
+역시 진짜 드래곤은 무섭다니까.</text>
+        <go>back</go>
+      </say>
+    </area3>
+    <area3fail>
+      <say>
+        <text>일단 물러났다.</text>
+        <go>back</go>
+      </say>
+    </area3fail>
+    <area31>
+      <say name="캔들">
+        <text>뭐야 너, 여긴 어떻게 알고 온 거야?
+또 내 도움을 구걸하러 온 거냐?</text>
+      </say>
+      <say name="캔들">
+        <text>매번 말하지만 난 돈을 주지 않으면 움직이지 않...
+아니 됐어 그냥 한 번 쯤은 자선사업도 해줘야지!</text>
+      </say>
+      <say name="캔들" type="give" remove="">
+        <text>그게 바로 강자의 책임 아니겠냐?</text>
+        <give>화룡_캔들</give>
+        <go>back</go>
+      </say>
+    </area31>
+    <tower>
+      <say>
+        <text>음산한 기운이 흐르는 거대한 탑이 우뚝 솟아있다.</text>
+      </say>
+      <say type="sellect">
+        <text>마왕의 탑에 도전할까?
+실패시 처음부터 다시 해야한다.</text>
+        <sellect go="yes">도전한다.</sellect>
+        <sellect>좀 더 준비를 하고 도전하자!</sellect>
+      </say>
+    </tower>
+    <toweryes>
+      <say ad="">
+        <text>타워에 입장하자 익숙한 실루엣이 다가온다.</text>
+      </say>
+      <say name="현자">
+        <text>호호호...
+드디어 여기 까지 왔구만.</text>
+      </say>
+      <say name="현자">
+        <text>표정이 믿기 힘든 표정이군 그래.
+호호호...</text>
+      </say>
+      <say name="현자">
+        <text>내가 어떻게 매번 마물에 대한 정보에 대해 알 수 있었을 거라 생각했나?
+설마 정말 그런 정보가 책에 나와있다고 생각한 것은 아니겠지?</text>
+      </say>
+      <say name="현자">
+        <text>호호호!</text>
+      </say>
+      <say name="마왕-이모타리안">
+        <text>그렇네 내가 바로 마왕인 이모타리안일세.</text>
+      </say>
+      <say name="마왕-이모타리안" type="battle" hp="3550" weak="" hard="">
+        <text>슬슬 자네의 영웅담도 끝을 낼 때인 것 같군.
+호호호!!!</text>
+      </say>
+    </toweryes>
+    <toweryesfail>
+      <say name="마왕-이모타리안" state="fail">
+        <text>호호호! 그동안 즐거웠네.
+잘 가시게.</text>
+      </say>
+    </toweryesfail>
+    <toweryeswin>
+      <say name="로이드">
+        <text>끝났나?</text>
+      </say>
+      <say name="잔느">
+        <text>우리가 해냈습니다!</text>
+      </say>
+      <say name="마왕-이모타리안">
+        <text>호호호! 제법 하는 구만.
+하지만 이 몸은 불사의 몸 겨우 이 정도로 죽지 않는다네.</text>
+      </say>
+      <say name="마왕-이모타리안">
+        <text>조금만 더 하면 날 이길 수 있었을텐데 호호호호!!</text>
+      </say>
+      <say name="캔들">
+        <text>뭐야! 저 녀석!
+아직 멀쩡하잖아!</text>
+      </say>
+      <say name="잔느">
+        <text>그럴수가...
+이 대군이 총 공격을 퍼부었는 데도...</text>
+      </say>
+      <say name="로이드">
+        <text>역시 마왕이라는 건가!</text>
+      </say>
+      <say name="마왕-이모타리안">
+        <text>호호호! 자 슬슬 끝내도록 하지.
+자네들도, 이 세상도 말일세.</text>
+      </say>
+      <say name="캔들">
+        <text>젠장!</text>
+      </say>
+      <say name="마왕-이모타리안">
+        <text>호호호!</text>
+      </say>
+      <say name="???" con="">
+        <text>잠깐!!!!</text>
+        <con>
+          <ele>추억</ele>
+          <go>fail</go>
+        </con>
+      </say>
+      <say name="마왕-이모타리안">
+        <text>으잉?</text>
+      </say>
+      <say name="실비아">
+        <text>아직 우리가 남았어!</text>
+      </say>
+      <say name="로이드">
+        <text>헉! 미인이다!</text>
+      </say>
+      <say name="실비아">
+        <text>미안! 늦었어.
+또 길을 잃어서 말야!</text>
+      </say>
+      <say name="실비아">
+        <text>하지만 연기가 피어오른 것을 보고 찾아올 수 있었어!</text>
+      </say>
+      <say name="실비아">
+        <text>네 덕에 많은 동족을 살릴 수 있었어!
+모두 널 돕겠다고 이렇게 찾아왔다구!</text>
+      </say>
+      <say name="실비아">
+        <text>다시 한 번 힘내자!</text>
+      </say>
+      <say name="로이드">
+        <text>들었지!
+다시 한 번 더 간다!</text>
+      </say>
+      <say name="잔느">
+        <text>그렇군요.
+아직 포기하긴 이릅니다.</text>
+      </say>
+      <say name="캔들" type="give">
+        <text>뜨거운 맛을 보여주지 않고선 못 배기지!</text>
+        <give>엘프병사</give>
+        <give>엘프병사</give>
+        <give>엘프병사</give>
+        <give>엘프병사</give>
+        <give>엘프병사</give>
+        <give>엘프병사</give>
+        <give>엘프병사</give>
+        <give>엘프병사</give>
+        <give>엘프병사</give>
+        <give>엘프병사</give>
+        <give>검투사_로이드</give>
+        <give>현자_잔느</give>
+        <give>화룡_캔들</give>
+        <give>숲의사자_실비아</give>
+      </say>
+      <say name="마왕-이모타리안">
+        <text>크으...!!</text>
+      </say>
+      <say name="마왕-이모타리안" type="battle" hp="1800" weak="" hard="">
+        <text>그런다고 이 몸을 이길 수 있을 것 같은가!</text>
+      </say>
+    </toweryeswin>
+    <toweryeswinfail>
+      <say name="마왕-이모타리안" state="fail">
+        <text>그럼 굿바이!!</text>
+      </say>
+      <say name="마왕-이모타리안" state="fail">
+        <text>죽어랏!</text>
+      </say>
+    </toweryeswinfail>
+    <toweryeswinwin>
+      <say name="마왕-이모타리안">
+        <text>끄아아아아악!
+불사일 터인 이 몸이!!
+어떻게! 어떻게에에에!!!</text>
+      </say>
+      <say name="캔들">
+        <text>끝났군.</text>
+      </say>
+      <say name="잔느">
+        <text>길고 긴 싸움이었습니다.</text>
+      </say>
+      <say name="로이드">
+        <text>아-!
+다 함께 다시 술이나 마시러 가자구!
+축배를 말이야!</text>
+      </say>
+      <say name="캔들">
+        <text>그거 좋지!
+더치페이는 아니겠지?</text>
+      </say>
+      <say name="잔느">
+        <text>오늘 같은 날은 충분히 즐기는 것도 나쁘지 않은 생각입니다.</text>
+      </say>
+      <say name="실비아">
+        <text>술?</text>
+      </say>
+      <say name="캔들">
+        <text>술이 뭔지도 모르는 거냐?
+뭐 마셔보면 알게 될 거야!
+따라오기나 해!</text>
+      </say>
+      <say name="실비아" state="ending">
+        <text>응.</text>
+      </say>
+    </toweryeswinwin>
+  </day9>
+</DialogueSet>
